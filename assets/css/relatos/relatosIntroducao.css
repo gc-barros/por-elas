@@ -1,0 +1,41 @@
+@media screen and (min-width: 0) {
+
+    .relatos__introducao {
+        font-family: var(--yellosun);
+        color: var(--branco);
+        font-size: 18px;
+        text-align: center;
+        margin: auto;
+        margin-top: 24px;
+        line-height: 1.06;
+        max-width: 264px;
+    }
+
+    .destaque {
+        font-weight: inherit;
+        color: var(--rosa-claro);
+    }
+
+    .relatos__introducao-rabiscos {
+        background-image: url(../../img/relatos/rabiscos.svg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+        height: 15px;
+        margin-top: 16px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    
+    .relatos__introducao {
+        font-size: 40px;
+        max-width: 624px;
+        margin-top: 56px;
+    }
+
+    .relatos__introducao-rabiscos {
+        height: 40px;
+        margin-top: 8px;
+    }
+}

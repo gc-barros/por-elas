@@ -1,0 +1,44 @@
+@media screen and (min-width: 0) {
+
+    .relatos__relato-box--ilustracao-carinhas {
+        background-image: url(../../img/relatos/carinhas.svg);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+        height: 110px;
+    }
+
+    .relatos__relato-box--ilustracao-coracao {
+        background-image: url(../../img/relatos/coracao.svg);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+        height: 110px;
+    }
+
+    .relatos__relato-box--ilustracao-maos {
+        background-image: url(../../img/relatos/maos.svg);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+        height: 110px;
+    }
+
+}
+
+@media screen and (min-width: 768px) {
+    .relatos__relato-box--ilustracao-carinhas, 
+    .relatos__relato-box--ilustracao-coracao, 
+    .relatos__relato-box--ilustracao-maos {
+        width: 276px;
+        height: 186px;
+        padding: 0 24px;
+    }
+
+    .relatos__relato-box--ilustracao-carinhas, 
+    .relatos__relato-box--ilustracao-maos {
+        order: 2;
+    }
+}
+
+

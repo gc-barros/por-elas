@@ -1,0 +1,24 @@
+.losangos {
+    background-image: url(../../img/relatos/losangos.svg);
+    background-repeat: repeat-x;
+    background-position: center;
+    background-size: contain;
+    height: 90px;
+    position: relative;
+    bottom: -46px;
+}
+
+@media screen and (min-width: 0) {
+    .relatos {
+        background-color: var(--roxo);
+        padding-top: 40px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .relatos {
+        padding-top: 128px;
+    }
+}
+
+

@@ -1,0 +1,70 @@
+@media screen and (min-width: 0) {
+    .relatos__relato-box {
+        max-width: 256px;
+        margin: 32px auto;
+    }
+
+    .relatos__relato-box--quote {
+        color: var(--branco);
+        font-family: var(--josefin);
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 1.4;
+    }
+
+    .relatos__relato-box--quote::before {
+        content: '';
+        background-image: url(../../img/relatos/aspas.svg);
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 13px;
+        display: block;
+        margin-bottom: 14px;
+    }
+
+    .relatos__relato-box--quote::after {
+        content: '';
+        background-image: url(../../img/relatos/underline-1.svg);
+        background-repeat: no-repeat;
+        height: 5px;
+        display: block;
+        margin-top: 12px;
+    }
+
+    .relatos__relato-box--autor {
+        margin-top: 16px;
+        display: block;
+        color: var(--rosa-claro);
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .relatos__relato-box {
+        max-width: 594px;
+        margin: 40px auto;
+        display: flex;
+        align-items: center;
+    }
+
+    .relatos__relato-box--quote {
+        font-size: 18px;
+        max-width: 326px;
+    }
+
+     .relatos__relato-box--quote::before {
+        height: 25px;
+     }
+}
+
+@media screen and (min-width: 1024px) {
+    .relatos__relato-box {
+        max-width: 744px;
+        margin: 88px auto;
+    }
+
+    .relatos__relato-box--quote {
+        font-size: 18px;
+        max-width: 380px;
+    }
+}
+

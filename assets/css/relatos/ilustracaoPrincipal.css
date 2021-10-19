@@ -1,0 +1,45 @@
+@media screen and (min-width: 0) {
+    .relatos__ilustracao-principal {
+        background-image: url(../../img/relatos/relatos-ilustracao-principal.svg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+        position: relative;
+        height: 189px;
+    }
+
+    .relatos__ilustracao-principal--underline {
+        background-image: url(../../img/relatos/underline.svg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        position: absolute;
+        bottom: -8px;
+        left: 50%;
+        transform: translateX(-50%);
+        height: 16px;
+        width: 255px;
+        background-size: contain;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .relatos__ilustracao-principal {
+        height: 420px;
+    }
+
+    .relatos__ilustracao-principal--underline {
+        width: 589px;
+        background-size: cover;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .relatos__ilustracao-principal {
+        height: 510px;
+    }
+
+    .relatos__ilustracao-principal--underline {
+        width: 676px;
+    }
+}
