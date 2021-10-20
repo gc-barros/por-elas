@@ -9,8 +9,8 @@
 }
 
 .losangos.inferiores {
-    bottom: 0;
-    top: -44px;
+    margin-top: -90px;
+    z-index: 1;
 }
 
 @media screen and (min-width: 0) {

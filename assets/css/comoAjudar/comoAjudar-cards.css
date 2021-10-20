@@ -4,14 +4,13 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        max-width: 160px;
         margin: auto;
     }
 
     .comoAjudar__card {
         border: 3px solid rgba(255, 173, 199, 0.25);
         background-color: var(--branco);
-        max-width: 148px;
+        width: 148px;
         margin-bottom: 24px;
         border-radius: 8px;
         text-align: center;
@@ -48,6 +47,7 @@
 
     .comoAjudar__card-principal--titulo {
         color: var(--roxo);
+        font-size: 14px;
     }
 
     .comoAjudar__card--botao {
@@ -77,6 +77,109 @@
     .comoAjudar__card-principal--endline {
         color: var(--roxo);
         font-size: 10px;
-        margin-top: 15px;
+        margin-top: 10px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .comoAjudar__cards {
+        flex-direction: row;
+        align-items: flex-end;
+        justify-content: center;
+        border-radius: 8px;
+    }
+
+    .comoAjudar__card.contribuir {
+        order: -1;
+    }
+
+    .comoAjudar__card {
+        width: 180px;
+        margin: 7px;
+        height: 233px;
+    }
+
+    .comoAjudar__card-principal {
+        height: 280px;
+    }
+
+    .comoAjudar__card-principal--doar {
+        background-size: contain;
+        height: 88px;
+    }
+
+    .comoAjudar__card-secundario--contribuir,
+    .comoAjudar__card-secundario--compartilhar {
+        background-size: contain;
+        height: 72px;
+    }
+
+    .comoAjudar__card--titulo {
+        font-size: 16px;
+    }
+
+    .comoAjudar__card-principal--titulo {
+        font-size: 18px;
+    }
+
+    .comoAjudar__card--botao {
+        font-size: 14px;
+        font-weight: 500;
+        padding: 8px;
+        width: 120px;
+        height: 26px;
+        line-height: 14px;
+    }
+
+    .comoAjudar__card-principal--endline {
+        font-size: 14px;
+        margin-top: 12px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .comoAjudar__card {
+        width: 248px;
+        margin: 10px;
+        height: 322px;
+        border-width: 4px;
+        border-radius: 16px;
+        padding-top: 32px;
+    }
+
+    .comoAjudar__card-principal {
+        height: 384px;
+    }
+
+    .comoAjudar__card-principal--doar {
+        height: 120px;
+    }
+
+    .comoAjudar__card-secundario--contribuir,
+    .comoAjudar__card-secundario--compartilhar {
+        height: 100px;
+    }
+
+    .comoAjudar__card--titulo {
+        font-size: 20px;
+        margin: 28px 0;
+    }
+
+    .comoAjudar__card-principal--titulo {
+        font-size: 22px;
+    }
+
+    .comoAjudar__card--botao {
+        font-size: 16px;
+        font-weight: 500;
+        padding: 8px;
+        width: 164px;
+        height: 36px;
+        line-height: 24px;
+    }
+
+    .comoAjudar__card-principal--endline {
+        font-size: 16px;
+        margin-top: 14px;
     }
 }

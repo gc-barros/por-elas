@@ -23,3 +23,16 @@
         font-family: var(--awesome);
     }
 }
+
+@media screen and (min-width: 768px) {
+    .comoAjudar__titulo {
+        font-size: 48px;
+    }
+
+    .comoAjudar__titulo::before {
+        height: 43px;
+        width: 30px;
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+}

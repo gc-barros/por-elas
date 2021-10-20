@@ -1,24 +1,52 @@
-.comoAjudar__highlights {
-    height: 37px;
-    width: 264px;
-    display: flex;
-    justify-content: space-between;
-    margin: auto;
-    margin-top: 24px;
+@media screen and (min-width: 0) {
+    .comoAjudar__highlights {
+        height: 37px;
+        width: 264px;
+        display: flex;
+        justify-content: space-between;
+        margin: auto;
+        margin-top: 24px;
+    }
+
+    .comoAjudar__highlights::before {
+        content: '';
+        background: url(../../img/comoAjudar/comoAjudar-highlight1.svg) no-repeat center;
+        display: inline-block;
+        height: 37px;
+        width: 44px;
+    }
+
+    .comoAjudar__highlights::after {
+        content: '';
+        background: url(../../img/comoAjudar/comoAjudar-highlight2.svg) no-repeat center;
+        display: inline-block;
+        height: 37px;
+        width: 44px;
+    }
 }
 
-.comoAjudar__highlights::before {
-    content: '';
-    background: url(../../img/comoAjudar/comoAjudar-highlight1.svg) no-repeat center;
-    display: inline-block;
-    height: 37px;
-    width: 44px;
+@media screen and (min-width: 768px) {
+    .comoAjudar__highlights::before, 
+    .comoAjudar__highlights::after {
+        background-size: contain;
+        height: 67px;
+        width: 80px;
+    }
+
+    .comoAjudar__highlights {
+        width: 640px;
+        margin-bottom: 32px;
+    }
 }
 
-.comoAjudar__highlights::after {
-    content: '';
-    background: url(../../img/comoAjudar/comoAjudar-highlight2.svg) no-repeat center;
-    display: inline-block;
-    height: 37px;
-    width: 44px;
+@media screen and (min-width: 1024px) {
+    .comoAjudar__highlights::before, 
+    .comoAjudar__highlights::after {
+        height: 94px;
+        width: 158px;
+    }
+
+    .comoAjudar__highlights {
+        width: 880px;
+    }
 }
