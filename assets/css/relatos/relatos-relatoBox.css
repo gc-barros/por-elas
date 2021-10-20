@@ -41,9 +41,10 @@
 @media screen and (min-width: 768px) {
     .relatos__relato-box {
         max-width: 594px;
-        margin: 40px auto;
+        margin: 64px auto;
         display: flex;
         align-items: center;
+        justify-content: space-between;
     }
 
     .relatos__relato-box--quote {

@@ -24,6 +24,11 @@
         margin: 16px auto;
         display: inline-block;
         width: 140px;
+        transition: 0.5s ease-out all;
+    }
+
+    .relatos__call-to-action--botao:hover {
+        transform: scale(1.1);
     }
 }
 
