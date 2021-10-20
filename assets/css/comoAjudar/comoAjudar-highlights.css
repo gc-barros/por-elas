@@ -1,0 +1,24 @@
+.comoAjudar__highlights {
+    height: 37px;
+    width: 264px;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    margin-top: 24px;
+}
+
+.comoAjudar__highlights::before {
+    content: '';
+    background: url(../../img/comoAjudar/comoAjudar-highlight1.svg) no-repeat center;
+    display: inline-block;
+    height: 37px;
+    width: 44px;
+}
+
+.comoAjudar__highlights::after {
+    content: '';
+    background: url(../../img/comoAjudar/comoAjudar-highlight2.svg) no-repeat center;
+    display: inline-block;
+    height: 37px;
+    width: 44px;
+}

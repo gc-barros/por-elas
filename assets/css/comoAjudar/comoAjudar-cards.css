@@ -1,0 +1,82 @@
+@media screen and (min-width: 0) {
+
+    .comoAjudar__cards {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        max-width: 160px;
+        margin: auto;
+    }
+
+    .comoAjudar__card {
+        border: 3px solid rgba(255, 173, 199, 0.25);
+        background-color: var(--branco);
+        max-width: 148px;
+        margin-bottom: 24px;
+        border-radius: 8px;
+        text-align: center;
+        padding: 20px 12px;
+        font-family: var(--josefin);
+    }
+
+    .comoAjudar__card-principal {
+        border-color: rgba(145, 98, 164, 0.25);
+        height: 230px;
+    }
+
+    .comoAjudar__card-principal--doar {
+        background: url(../../img/comoAjudar/icone-doar.svg) no-repeat center;
+        height: 72px;
+    }
+
+    .comoAjudar__card-secundario--contribuir {
+        background: url(../../img/comoAjudar/icone-contribuir.svg) no-repeat center;
+        height: 60px;
+    }
+
+    .comoAjudar__card-secundario--compartilhar {
+        background: url(../../img/comoAjudar/icone-compartilhar.svg) no-repeat center;
+        height: 60px;
+    }
+
+    .comoAjudar__card--titulo {
+        color: var(--rosa);
+        font-weight: 600;
+        font-size: 12px;
+        margin: 19px 0;
+    }
+
+    .comoAjudar__card-principal--titulo {
+        color: var(--roxo);
+    }
+
+    .comoAjudar__card--botao {
+        background-color: var(--rosa);
+        color: var(--branco);
+        display: inline-block;
+        text-align: center;
+        text-decoration: none;
+        font-weight: bold;
+        padding: 4px;
+        font-size: 10px;
+        width: 98px;
+        height: 22px;
+        line-height: 16px;
+        border-radius: 24px;
+        transition: all 0.5s ease-out;
+    }
+
+    .comoAjudar__card-principal--botao {
+        background-color: var(--roxo);
+    }
+
+    .comoAjudar__card--botao:hover {
+        transform: scale(1.1);
+    }
+
+    .comoAjudar__card-principal--endline {
+        color: var(--roxo);
+        font-size: 10px;
+        margin-top: 15px;
+    }
+}

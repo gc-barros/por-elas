@@ -8,6 +8,11 @@
     bottom: -46px;
 }
 
+.losangos.inferiores {
+    bottom: 0;
+    top: -44px;
+}
+
 @media screen and (min-width: 0) {
     .relatos {
         background-color: var(--roxo);

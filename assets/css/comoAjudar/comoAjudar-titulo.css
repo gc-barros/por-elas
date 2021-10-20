@@ -1,0 +1,25 @@
+@media screen and (min-width: 0) {
+    
+    .comoAjudar__titulo {
+        font-family: var(--yellosun);
+        font-size: 28px;
+        color: var(--rosa);
+    }
+    
+    .comoAjudar__titulo::before {
+        content: '';
+        background: url(../../img/comoAjudar/female-symbol.svg);
+        display: inline-block;
+        height: 24px;
+        width: 16px;
+        position: relative;
+        left: -8px;
+        bottom: -2px;
+    }
+    
+    .destaque-roxo {
+        font-weight: lighter;
+        color: var(--roxo);
+        font-family: var(--awesome);
+    }
+}

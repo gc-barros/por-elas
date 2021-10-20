@@ -6,6 +6,7 @@
     <meta name="theme-color" content="#9162A4">
  
     <meta id="vp" name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <meta id="vp" name="viewport" content="width=320"> -->
 
     <!-- Título -->
     <title>POR ELAS | Nossa luta é a luta das mulheres </title>
@@ -21,7 +22,7 @@
     <link rel="stylesheet" href="assets/css/normalize.css">
     <link rel="stylesheet" href="assets/css/variaveis.css">
 
-    <!-- CSS da seção relatos -->
+    <!-- CSS da seção 'relatos' -->
     <link rel="stylesheet" href="assets/css/relatos/relatos.css">
     <link rel="stylesheet" href="assets/css/relatos/relatos-ilustracaoPrincipal.css">
     <link rel="stylesheet" href="assets/css/relatos/relatos-introducao.css">
@@ -29,9 +30,16 @@
     <link rel="stylesheet" href="assets/css/relatos/relatos-boxIlustracao.css">
     <link rel="stylesheet" href="assets/css/relatos/relatos-callToAction.css">
 
+    <!-- CSS da seção 'como ajudar' -->
+    <link rel="stylesheet" href="assets/css/comoAjudar/comoAjudar.css">
+    <link rel="stylesheet" href="assets/css/comoAjudar/comoAjudar-titulo.css">
+    <link rel="stylesheet" href="assets/css/comoAjudar/comoAjudar-cards.css">
+    <link rel="stylesheet" href="assets/css/comoAjudar/comoAjudar-highlights.css">
+
     <!-- NÃO ESQUECER: script para corrigir o viewport em dispositivos móveis. -->
     <!-- <script src="assets/js/viewportAdjust.js"></script> -->
 </head>
+
 <body>
     <!-- Inicio -->
     <h1>Olá, Mundo!</h1>
@@ -41,16 +49,20 @@
 
     <section class="relatos">
 
+        <!-- Ilustração principal -->
         <div class="relatos__ilustracao-principal">
             <div class="relatos__ilustracao-principal--underline"></div>
         </div>
 
-        <h3 class="relatos__introducao">confira alguns depoimentos de pessoas que tiveram o seu dia <strong class="destaque">transformado positivamente</strong></h3>
+        <!-- Introdução -->
+        <h2 class="relatos__introducao">confira alguns depoimentos de pessoas que tiveram o seu dia <strong class="destaque-rosa">transformado positivamente</strong></h2>
         <div class="relatos__introducao-rabiscos"></div>
 
+        <!-- Box de relatos -->
         <div class="relatos__relato-box">
+            <!-- Ilustração -->
             <div class="relatos__relato-box--ilustracao-carinhas"></div>
-
+            <!-- Relato -->
             <q class="relatos__relato-box--quote">
                 “Tenho um sentimento muito forte de agradecimento, vocês cuidam muito de nós que moramos na rua, e minhas filhas vão ficar muito ‘feliz’ por essas coisas de higiene. Elas não ‘tão’ aqui comigo por causa dessa doença, estamos com medo.”
                 <span class="relatos__relato-box--autor">(Arlindo, ao receber kits do Projeto Por Elas)</span>
@@ -58,8 +70,9 @@
         </div>
 
         <div class="relatos__relato-box">
+            <!-- Ilustração -->
             <div class="relatos__relato-box--ilustracao-coracao"></div>
-
+            <!-- Relato -->
             <q class="relatos__relato-box--quote">
                 “Faz horas que estou aqui, e nenhum carro parou. Vocês vieram e me deram coisas pra eu ficar cheirosa, muito obrigada, essa vida é dura, mas Deus manda os anjos dele pra ajudar.”
                 <span class="relatos__relato-box--autor">(Mariene, 51 anos, ao receber um kit do Projeto Por Elas)</span>
@@ -67,20 +80,86 @@
         </div>
 
         <div class="relatos__relato-box">
+            <!-- Ilustração -->
             <div class="relatos__relato-box--ilustracao-maos"></div>
-
+            <!-- Relato -->
             <q class="relatos__relato-box--quote">
                 “Nem acredito, ontem foi meu aniversário e eu não tinha nada, e hoje vocês trouxeram esse presente, vocês são uns amores, estão no meu coração, obrigada por sempre nos ajudar.”
                 <span class="relatos__relato-box--autor">(Iara, 56 anos, ao receber um kit do Projeto Por Elas)</span>
             </q>
         </div>
 
+        <!-- Call to action -->
         <div class="relatos__call-to-action">
+            <!-- Texto -->
             <h4 class="relatos__call-to-action-texto">
-                ajude a fazer <span class="destaque">mais pessoas sorrirem</span>, mesmo que com simples gestos
+                ajude a fazer <span class="destaque-rosa">mais pessoas sorrirem</span>, mesmo que com simples gestos
             </h4>
+            <!-- Botão -->
             <a href="#" class="relatos__call-to-action--botao">Como posso contribuir?</a>
         </div>
+    </section>
+
+    <div class="losangos inferiores"></div>
+
+    <!-- Section 6 | Como ajudar? -->
+    <section class="comoAjudar">
+        <!-- Título -->
+        <h2 class="comoAjudar__titulo"><strong class="destaque-roxo">POR ELAS:</strong> como ajudar?</h2>
+
+        <!-- Highlights -->
+        <div class="comoAjudar__highlights"></div>
+
+        <!-- Cards -->
+        <div class="comoAjudar__cards">
+
+            <!-- Card principal: doar -->
+            <div class="comoAjudar__card comoAjudar__card-principal">
+                <!-- Ícone -->
+                <div class="comoAjudar__card-principal--doar"></div>
+                <!-- Título -->
+                <h3 class="comoAjudar__card--titulo comoAjudar__card-principal--titulo">
+                    Doando itens de higiene, cuidados e roupas.
+                </h3>
+                <!-- Botão -->
+                <a href="#" class="comoAjudar__card--botao comoAjudar__card-principal--botao">
+                    Doar
+                </a>
+                <!-- Endline -->
+                <p class="comoAjudar__card-principal--endline">Toda ajuda é válida!</p>
+            </div>
+
+            <!-- Card secundário: contribuir -->
+            <div class="comoAjudar__card comoAjudar__card-secundario">
+                <!-- Ícone -->
+                <div class="comoAjudar__card-secundario--contribuir"></div>
+                <!-- Título -->
+                <h3 class="comoAjudar__card--titulo">
+                    Contribuindo com qualquer quantia em dinheiro.
+                </h3>
+                <!-- Botão -->
+                <a href="#" class="comoAjudar__card--botao">
+                    Contribuir
+                </a>
+            </div>
+
+            <!-- Card secundário: compartilhar -->
+            <div class="comoAjudar__card comoAjudar__card-secundario">
+                <!-- Ícone -->
+                <div class="comoAjudar__card-secundario--compartilhar"></div>
+                <!-- Título -->
+                <h3 class="comoAjudar__card--titulo">
+                    Compartilhando o projeto com os amigos.
+                </h3>
+                <!-- Botão -->
+                <a href="#" class="comoAjudar__card--botao">
+                    Compartilhar
+                </a>
+            </div>
+         
+        </div>
+
+
     </section>
 </body>
 </html>
