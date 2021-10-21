@@ -1,5 +1,6 @@
-window.onload = function() {
-    
+window.onload = ajustarViewport();
+
+function ajustarViewport () {
     // <meta id="vp" name="viewport" content="width=device-width, initial-scale=1.0">
 
     if (screen.width < 480) {
@@ -9,6 +10,5 @@ window.onload = function() {
     } else {
         var mvp = document.getElementById('vp');
         mvp.setAttribute('content','width=device-width, initial-scale=1.0');
-    }    
-
+    }  
 }

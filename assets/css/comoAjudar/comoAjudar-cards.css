@@ -16,6 +16,12 @@
         text-align: center;
         padding: 20px 12px;
         font-family: var(--josefin);
+        transition: 0.8s ease all;
+    }
+
+    .comoAjudar__card:hover {
+        transform: scale(1.08);
+        box-shadow: 0px 6px 8px rgba(200, 178, 216, 0.16);
     }
 
     .comoAjudar__card-principal {
@@ -71,13 +77,26 @@
     }
 
     .comoAjudar__card--botao:hover {
-        transform: scale(1.1);
+        transform: scale(1.07);
+        cursor: pointer;
     }
 
-    .comoAjudar__card-principal--endline {
+    .comoAjudar__card-principal--endline,
+    .comoAjudar__card-compartilhar--endline {
         color: var(--roxo);
         font-size: 10px;
         margin-top: 10px;
+    }
+
+    .comoAjudar__card-compartilhar--endline {
+        color: var(--rosa);
+        font-style: italic;
+        font-weight: light;
+        visibility: hidden;
+    }
+
+    .comoAjudar__card-compartilhar--endline.visible {
+        visibility: visible;
     }
 }
 
@@ -131,7 +150,8 @@
         line-height: 14px;
     }
 
-    .comoAjudar__card-principal--endline {
+    .comoAjudar__card-principal--endline,
+    .comoAjudar__card-compartilhar--endline {
         font-size: 14px;
         margin-top: 12px;
     }
@@ -178,7 +198,8 @@
         line-height: 24px;
     }
 
-    .comoAjudar__card-principal--endline {
+    .comoAjudar__card-principal--endline,
+    .comoAjudar__card-compartilhar--endline {
         font-size: 16px;
         margin-top: 14px;
     }
