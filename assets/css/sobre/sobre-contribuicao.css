@@ -1,0 +1,65 @@
+@media screen and (min-width: 0) {
+    a {
+        text-decoration: none;
+    }
+
+    .sobre__titulo-incentivo {
+        font-family: var(--awesome);
+        text-align: center;
+        text-transform: uppercase;
+        margin: 30px 20%;
+        font-size: 22px;
+        color: var(--branco);
+    }
+
+    .sobre__botoes-interativos {
+        display: flex;
+        justify-content: center;
+    }
+
+    .sobre__botoes-1 {
+        padding: 8px;
+        font-size: 10px;
+        font-weight: bold;
+        margin-right: 20px;
+        font-family: var(--josefin);
+        background-color: var(--branco);
+        color: var(--roxo);
+        border-radius: 15px;
+        transition: 1s;
+    }
+
+    .sobre__botoes-2 {
+        padding: 8px;
+        font-size: 10px;
+        font-weight: bold;
+        font-family: var(--josefin);
+        border: 1.25px solid var(--branco);
+        color: var(--branco);
+        border-radius: 15px;
+        transition: 1s;
+    }
+
+    .sobre__botoes-1:hover, .sobre__botoes-2:hover {
+        opacity: 0.7;
+        cursor: pointer;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .sobre__titulo-incentivo {
+        font-size: 30px;
+        margin: 50px 11%;
+    }
+
+    .sobre__botoes-1, .sobre__botoes-2 {
+        padding: 10px;
+        font-size: 16px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .sobre__titulo-incentivo {
+        margin: 30px 30%;
+    }
+}

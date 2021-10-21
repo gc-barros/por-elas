@@ -1,0 +1,96 @@
+@media screen and (min-width: 0) {
+    .sobre__inicio-img {
+        background-image: url(../../img/sobre/ilustracai-inicio.svg);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+        height: 202px;
+        margin-right: 60px;
+    }
+
+    .sobre__objetivo-img {
+        background-image: url(../../img/sobre/ilustracao-objetivo.svg);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+        height: 220px;
+        margin-left: 70px;
+    }
+    
+    .sobre__luta {
+        margin-bottom: 40px;
+    }
+
+    .sobre__luta-img {
+        background-image: url(../../img/sobre/ilustracao-luta.svg);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+        height: 130px;
+    }
+
+    .sobre__luta-paragrafo {
+        font-family: var(--josefin);
+        font-size: 12px;
+        margin: 12px 70px;
+        color: var(--branco);
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .sobre__inicio {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: center;
+    }
+
+    .sobre__inicio-img {
+        height: 400px;
+        width: 280px;
+    }
+
+    .sobre__objetivo {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .sobre__objetivo-img {
+        height: 375px;
+        width: 300px;
+    }
+
+    .sobre__luta {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .sobre__luta-img {
+        height: 150px;
+        width: 141px;
+
+    }
+
+    .sobre__luta-paragrafo {
+        font-size: 18px;
+        margin-left: 42px;
+        max-width: 340px;
+    }
+
+    .sobre__inicio-box-texto {
+        margin-top: 20px;
+    }
+
+    .sobre__objetivo-texto {
+        margin-top: 22px;
+    }
+
+    .sobre__luta-img {
+        height: 209px;
+        width: 163px;
+        margin-right: 60px;
+        margin-bottom: 50px;
+    }
+}
