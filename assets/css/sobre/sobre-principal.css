@@ -1,0 +1,94 @@
+* {
+    text-align: center;
+}
+
+.sobre {
+    background-color: var(--roxo);
+    padding-top: 68px;
+}
+
+@media screen and (min-width: 0) {
+    .sobre__titulo {
+        font-family: var(--awesome);
+        text-transform: uppercase;
+        font-size: 28px;
+        color: var(--branco);
+    }
+
+    .sobre__logo {
+        background-image: url(../../img/sobre/logo.svg);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+        height: 244px;
+    }
+
+    .sobre__subtitulo {
+        color: var(--rosa-claro);
+        font-family: var(--yellosun);
+        font-size: 30px;
+    }
+
+    .sobre__paragrafo {
+        font-family: var(--josefin);
+        font-size: 12px;
+        margin: 12px 70px;
+        color: var(--branco);
+
+    }
+
+    .sobre__linha {
+        background-image: url(../../img/sobre/sobre__listra.svg);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+        height: 2px;
+        display: block;
+        margin: 20px auto;
+    }
+
+    .sobre__rabiscos {
+        background-image: url(../../img/sobre/rabisco.svg);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+        height: 17px;
+        margin: 20px 0px;
+    }
+
+    .sobre__listras {
+        background-image: url(../../img/sobre/listras.svg);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+        height: 40px;
+        position: relative;
+        bottom: -15px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    
+    .sobre__paragrafo {
+        font-size: 18px;
+        max-width: 340px;
+    }
+
+    .sobre__linha {
+        height: 5px;
+        width: 390px;
+    }
+
+    .sobre__subtitulo {
+        font-size: 45px;
+    }
+
+    .sobre__rabiscos {
+        height: 40px;
+        margin: 40px 0px;
+    }
+
+    .sobre__listras {
+        bottom: -12px;
+    }
+}
