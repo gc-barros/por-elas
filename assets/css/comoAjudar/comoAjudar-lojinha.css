@@ -1,0 +1,184 @@
+@media screen and (min-width: 0) {
+    
+    .comoAjudar__lojinha {
+        font-family: var(--josefin);
+        font-weight: 600;
+        max-width: 264px;
+        margin: auto;
+    }
+
+    .comoAjudar__lojinha--ilustracao-celular {
+        background: url(../../img/comoAjudar/comoAjudar-lojinha.svg) no-repeat center / contain;
+        height: 152px;
+        margin-top: 64px;
+        margin-bottom: 32px;
+    }
+
+    .comoAjudar__lojinha--titulo {
+        color: var(--roxo);
+        font-family: var(--awesome);
+        font-size: 24px;
+        margin-bottom: 36px;
+        font-weight: 100;
+    }
+
+    .comoAjudar__lojinha--titulo::before {
+        content: '';
+        background: url(../../img/comoAjudar/carrinho.svg) no-repeat center / contain;
+        display: inline-block;
+        width: 32px;
+        height: 32px;
+        position: relative;
+        bottom: -6px;
+        left: -4px;
+    }
+
+    .comoAjudar__lojinha--titulo::after {
+        content: '';
+        background: url(../../img/comoAjudar/por-elas.svg) no-repeat center / contain;
+        width: 73px;
+        height: 54px;
+        display: inline-block;
+        position: relative;
+        bottom: -20px;
+        left: 6px;
+    }
+
+    .comoAjudar__lojinha--descricao {
+        color: var(--roxo);
+        text-align: left;
+        font-size: 14px;
+    }
+
+    .comoAjudar__lojinha--botao {
+        font-family: var(--josefin);
+        font-size: 12px;
+        font-weight: 600;
+        display: block;
+        margin: 20px auto;
+        padding: 10px;
+        line-height: 8px;
+        width: 132px;
+        height: 28px;
+        background-color: var(--rosa);
+        color: var(--branco);
+        text-decoration: none;
+        border-radius: 24px;
+        transition: 0.5s ease-out all;
+    }
+
+    .comoAjudar__lojinha--botao:hover {
+        transform: scale(1.1);
+    }
+
+    .comoAjudar__lojinha--observacao {
+        font-size: 12px;
+        text-align: left;
+        color: var(--rosa);
+    }
+
+    .comoAjudar__lojinha--endline {
+        font-family: var(--yellosun);
+        color: var(--roxo);
+        font-size: 27px;
+        margin-top: 56px;
+        font-weight: 100;
+    }
+
+    .destaque-lojinha {
+        font-family: var(--awesome);
+        font-weight: 100;
+        color: var(--rosa);
+        display: block;
+    }
+
+    .comoAjudar__lojinha--endline::after {
+        content: '';
+        background: url(../../img/relatos/rabiscos.svg) no-repeat center / contain;
+        display: block;
+        height: 15px;
+        margin-top: 10px;
+    }
+
+    .comoAjudar__lojinha--ilustracao-uniao {
+        background: url(../../img/comoAjudar/comoAjudar-ilustracaoFinal.svg) no-repeat center / contain;
+        height: 80px;
+        margin-top: 32px;
+        position: relative;
+        bottom: -1px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .comoAjudar__lojinha {
+        display: flex;
+        max-width: 600px;
+        margin: auto;
+        margin-top: 100px;
+        justify-content: space-between;
+        align-items: flex-end;
+    }
+
+    .comoAjudar__lojinha--ilustracao-celular {
+        width: 250px;
+        height: 260px;
+        order: 2;
+        margin: 0;
+    }
+
+    .comoAjudar__lojinha--descricao,
+    .comoAjudar__lojinha--observacao {
+        max-width: 320px;
+    }
+
+    .comoAjudar__lojinha--titulo {
+        font-size: 46px;
+        margin-bottom: 36px;
+    }
+
+    .comoAjudar__lojinha--titulo::before {
+        width: 53px;
+        height: 53px;
+        left: -6px;
+    }
+
+    .comoAjudar__lojinha--titulo::after {
+        width: 145px;
+        height: 108px;
+        bottom: -41px;
+        left: 6px;
+    }
+
+    .comoAjudar__lojinha--descricao {
+        font-size: 20px;
+        margin-top: 8px;
+        margin-bottom: 16px;
+    }
+
+    .comoAjudar__lojinha--botao {
+        width: 180px;
+        height: 36px;
+        font-size: 16px;
+        line-height: 19px;
+        margin: 24px 0;
+    }
+
+    .comoAjudar__lojinha--observacao {
+        font-size: 16px;
+        max-width: 272px;
+    }
+
+    .comoAjudar__lojinha--endline {
+        font-size: 40px;
+        margin-top: 120px;
+    }
+
+    .comoAjudar__lojinha--endline::after {
+        height: 28px;
+    }
+
+    .comoAjudar__lojinha--ilustracao-uniao {
+        height: 200px;
+        bottom: -2px;
+    }
+}

@@ -5,7 +5,13 @@
         padding-top: 80px;
         text-align: center;
         background: url(../../img/comoAjudar/blobs-small.svg) no-repeat center;
-        height: 1420px;
+    }
+
+    .comoAjudar::after {
+        content: '';
+        display: block;
+        background: url(../../img/comoAjudar/listras-rosa.svg) center;
+        height: 40px;
     }
 }
 

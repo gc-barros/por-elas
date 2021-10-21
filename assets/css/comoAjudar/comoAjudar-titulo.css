@@ -4,6 +4,7 @@
         font-family: var(--yellosun);
         font-size: 28px;
         color: var(--rosa);
+        font-weight: 100;
     }
     
     .comoAjudar__titulo::before {
@@ -18,9 +19,9 @@
     }
     
     .destaque-roxo {
-        font-weight: lighter;
         color: var(--roxo);
         font-family: var(--awesome);
+        font-weight: 100;
     }
 }
 
