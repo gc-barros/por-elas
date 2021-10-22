@@ -67,13 +67,13 @@
         width: 38px;
         height: 88px;
         position: absolute;
-        left: -32px;
+        left: -20px;
         bottom: 44%;
     }
 
     .apoiamos__container::after {
         background-image: url(../../img/apoiamos/rabisco2.svg);
-        left: 256px;
+        left: 244px;
     }
 
     .apoiamos__projeto {
