@@ -1,0 +1,18 @@
+@media screen and (min-width: 0) {
+
+    .sobre__video {
+        width: 290px;
+        height: auto;
+        border-radius: 16px;
+        border: 6px var(--rosa) solid;
+        background-color: var(--roxo);
+        margin: 24px auto;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .sobre__video {
+        width: 540px;
+        margin: 40px auto;
+    }
+}

@@ -1,6 +1,5 @@
 @media screen and (min-width: 0) {
     .estatisticas {
-        height: 2400px;
         background-color: var(--branco);
         font-family: var(--josefin);
         color: var(--roxo-escuro);

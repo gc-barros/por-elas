@@ -1,4 +1,5 @@
 @media screen and (min-width: 0) {
+
     .sobre__inicio-img {
         background-image: url(../../img/sobre/ilustracai-inicio.svg);
         background-repeat: no-repeat;
@@ -14,7 +15,7 @@
         background-size: contain;
         background-position: center;
         height: 220px;
-        margin-left: 70px;
+        margin-left: 50px;
     }
     
     .sobre__luta {
@@ -32,8 +33,12 @@
     .sobre__luta-paragrafo {
         font-family: var(--josefin);
         font-size: 12px;
-        margin: 12px 70px;
+        /* Centralizando texto com margin auto e definindo o limite do tamanho da box com max-width*/
+        max-width: 290px;
+        margin: 12px auto;
         color: var(--branco);
+        /* Aumentando o espaçamento entre linhas */
+        line-height: 1.2;
     }
 }
 
@@ -53,6 +58,12 @@
         display: flex;
         flex-direction: row;
         justify-content: center;
+    }
+
+    /* Alinhando imagem */
+    .sobre__inicio-img {
+        position: relative;
+        bottom: -24px;
     }
 
     .sobre__objetivo-img {
@@ -75,8 +86,7 @@
 
     .sobre__luta-paragrafo {
         font-size: 18px;
-        margin-left: 42px;
-        max-width: 340px;
+        max-width: 468px;
     }
 
     .sobre__inicio-box-texto {

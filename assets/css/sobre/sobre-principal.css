@@ -5,13 +5,15 @@
 .sobre {
     background-color: var(--roxo);
     padding-top: 68px;
+    text-align: center;
 }
 
 @media screen and (min-width: 0) {
     .sobre__titulo {
         font-family: var(--awesome);
         text-transform: uppercase;
-        font-size: 28px;
+        /* Ajustando font-size para telas menores*/
+        font-size: 22px;
         color: var(--branco);
     }
 
@@ -21,28 +23,42 @@
         background-size: contain;
         background-position: center;
         height: 244px;
+        /* Centralizando a imagem */
+        position: relative;
+        top: -10px;
+        left: -20px;
     }
 
     .sobre__subtitulo {
         color: var(--rosa-claro);
         font-family: var(--yellosun);
-        font-size: 30px;
+        font-size: 26px;
+    }
+
+    /* Alterando a cor de um trecho do texto para destacá-lo*/
+    .sobre__subtitulo strong {
+        font-weight: 100;
+        color: var(--rosa);
     }
 
     .sobre__paragrafo {
         font-family: var(--josefin);
         font-size: 12px;
-        margin: 12px 70px;
+        margin: 12px auto;
+        max-width: 240px;
         color: var(--branco);
-
+        /* Aumentando o espaçamento entre linhas */
+        line-height: 1.2;
     }
 
     .sobre__linha {
         background-image: url(../../img/sobre/sobre__listra.svg);
         background-repeat: no-repeat;
-        background-size: contain;
+        /* Ajustando a largura da linha */
+        background-size: cover;
         background-position: center;
-        height: 2px;
+        height: 4px;
+        max-width: 224px;
         display: block;
         margin: 20px auto;
     }
@@ -59,7 +75,7 @@
     .sobre__listras {
         background-image: url(../../img/sobre/listras.svg);
         background-repeat: no-repeat;
-        background-size: contain;
+        background-size: cover;
         background-position: center;
         height: 40px;
         position: relative;
@@ -69,6 +85,15 @@
 
 @media screen and (min-width: 768px) {
     
+    .sobre__titulo { 
+        /* Ajuste para telas maiores */
+        font-size: 40px;
+    }
+
+    .sobre__logo {
+        height: 300px;
+    }
+
     .sobre__paragrafo {
         font-size: 18px;
         max-width: 340px;
@@ -76,7 +101,7 @@
 
     .sobre__linha {
         height: 5px;
-        width: 390px;
+        max-width: 340px;
     }
 
     .sobre__subtitulo {

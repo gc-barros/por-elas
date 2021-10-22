@@ -7,7 +7,9 @@
         font-family: var(--awesome);
         text-align: center;
         text-transform: uppercase;
-        margin: 30px 20%;
+        /* Margin auto e max-width para centralizar */
+        margin: 30px auto;
+        max-width: 256px;
         font-size: 22px;
         color: var(--branco);
     }
@@ -19,9 +21,13 @@
 
     .sobre__botoes-1 {
         padding: 8px;
+        /* Ajustando largura e altura dos botões para padronizar */
+        width: 120px;
+        height: 24px;
+        line-height: 10px;
         font-size: 10px;
         font-weight: bold;
-        margin-right: 20px;
+        margin-right: 8px;
         font-family: var(--josefin);
         background-color: var(--branco);
         color: var(--roxo);
@@ -31,6 +37,9 @@
 
     .sobre__botoes-2 {
         padding: 8px;
+        width: 120px;
+        height: 26px;
+        line-height: 8px;
         font-size: 10px;
         font-weight: bold;
         font-family: var(--josefin);
@@ -48,18 +57,34 @@
 
 @media screen and (min-width: 768px) {
     .sobre__titulo-incentivo {
+        /* Adaptando as mudanças */
         font-size: 30px;
-        margin: 50px 11%;
+        max-width: 562px;
+        margin: 50px auto;
     }
 
     .sobre__botoes-1, .sobre__botoes-2 {
+        /* Ajustando detalhas na borda e alinhamento */
+        width: 185px;
+        height: 40px;
         padding: 10px;
         font-size: 16px;
+        border-radius: 36px;
+        line-height: 1.2;
+    }
+
+    .sobre__botoes-1 {
+        line-height: 1.4;
+        margin-right: 16px;
+    }
+
+    .sobre__botoes-2 {
+        border-width: 2px;
     }
 }
 
 @media screen and (min-width: 1024px) {
     .sobre__titulo-incentivo {
-        margin: 30px 30%;
+        margin: 30px auto;
     }
 }
