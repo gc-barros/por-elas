@@ -1,0 +1,109 @@
+@media screen and (min-width: 0) {
+    .sobre__listras.roxas {
+        background-image: url(../../assets/img/listras-roxas.svg);
+    }
+
+    .rodape {
+        background-color: var(--roxo-escuro);
+        font-family: var(--josefin);
+        font-size: 14px;
+        padding-top: 24px;
+        text-align: center;
+        color: var(--branco);
+    }
+
+    .rodape__logo {
+        display: block;
+        margin: auto;
+        margin-bottom: 24px;
+    }
+
+    .rodape__texto {
+        max-width: 264px;
+        margin: auto;
+        line-height: 1.2;
+        font-weight: 400;
+    }
+
+    .rodape__equipe {
+        display: flex;
+        flex-flow: column wrap;
+        align-items: flex-start;
+        justify-content: center;
+        max-width: 135px;
+        margin: 20px auto;
+
+    }
+
+    .rodape__equipe--membro {
+        margin: 6px 0;
+    }
+
+    .rodape__equipe--membro a {
+        text-decoration: none;
+        color: var(--branco);
+        font-weight: regular;
+        transition: .5s ease-in all;
+    }
+
+    .rodape__equipe--membro a:hover {
+        color: var(--rosa-claro);
+    }
+
+     .rodape__equipe--membro a i {
+         vertical-align: bottom;
+         margin-right: 4px;
+         line-height: 16px;
+     }
+
+     .rodape__botao.comoAjudar__lojinha--botao {
+        font-weight: 400;
+        background-color: #4A3054;
+        line-height: 9px;
+        font-size: 12px;
+        width: 145px;
+        height: 30px;
+     }
+
+     .rodape__botao.comoAjudar__lojinha--botao i {
+        vertical-align: bottom;
+     }
+
+     .rodape__endline {
+        background-color: #4A3054;
+        padding: 10px;
+        line-height: 21px;
+        font-weight: 300;
+     }
+}
+
+@media screen and (min-width: 768px) {
+    .rodape__texto {
+        max-width: 432px;
+        margin: auto;
+    }
+
+    .rodape__logo {
+        transform: scale(1.2);
+    }
+
+    .rodape__equipe {
+        display: flex;
+        flex-flow: column wrap;
+        align-items: flex-start;
+        justify-content: center;
+        align-content: space-between;
+        max-width: 261px;
+        max-height: 88px;
+        margin: 20px auto;
+    }
+
+    .rodape__botao.comoAjudar__lojinha--botao {
+        margin: auto;
+        margin-bottom: 24px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+
+}
