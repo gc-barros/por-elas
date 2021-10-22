@@ -1,0 +1,46 @@
+@media screen and (min-width: 0) {
+    .estatisticas__duvida--ilustracao {
+        background: url(../../img/estatisticas/duvida.svg) no-repeat center / contain;
+        height: 180px;
+    }
+
+    .estatisticas__duvida--texto {
+        max-width: 288px;
+        background-color: var(--roxo);
+        border: 2px var(--lilas) solid;
+        color: var(--branco); 
+        font-family: var(--awesome);
+        text-align: center;
+        font-size: 14px;
+        padding: 12px 21px;
+        margin: auto;
+        margin-bottom: 68px;
+        border-radius: 4px;
+    }
+
+    .estatisticas__duvida--texto span {
+        color: var(--rosa-claro);
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .estatisticas__duvida--ilustracao {
+        height: 290px;
+    }
+
+    .estatisticas__duvida--texto {
+        max-width: 630px;
+        border-radius: 8px;
+        border: 4px var(--lilas) solid;
+        font-size: 26px;
+        padding: 20px 64px;
+        margin-bottom: 68px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .estatisticas__duvida--texto {
+        max-width: 772px;
+        font-size: 28px;
+    }
+}

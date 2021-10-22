@@ -1,0 +1,19 @@
+@media screen and (min-width: 0) {
+    .estatisticas {
+        height: 2400px;
+        background-color: var(--branco);
+        font-family: var(--josefin);
+        color: var(--roxo-escuro);
+        font-size: 12px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .estatisticas {
+        font-size: 18px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+
+}

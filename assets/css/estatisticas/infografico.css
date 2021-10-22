@@ -1,0 +1,92 @@
+@media screen and (min-width: 0) {
+
+    .estatisticas__infografico {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .estatisticas__infografico--dado {
+        display: flex;
+        align-items: center;
+        margin-bottom: 24px;
+        justify-content: center;
+    }
+
+    .estatisticas__infografico--dado-circulo {
+        height: 74px;
+    }
+
+    .estatisticas__infografico--dado-texto {
+        max-width: 176px;
+        line-height: 1.4;
+        margin-left: 14px;
+        text-align: left;
+    }
+
+    .estatisticas__infografico--dados-fonte {
+        font-size: 10px;
+        max-width: 270px;
+        text-align: left;
+        line-height: 1.4;
+    }
+
+    .estatisticas__infografico--ilustracao-brazil {
+        margin: 32px 0;
+        height: 165px;
+        width: 158px;
+        background: url(../../img/estatisticas/brazil.svg) no-repeat center / contain;
+    }
+
+}
+
+@media screen and (min-width: 768px) {
+    .estatisticas__infografico {
+        flex-direction: row;
+    }
+
+    .estatisticas__infografico--ilustracao-brazil {
+        width: 238px;
+        height: 249px;
+        margin-left: 20px;
+    }
+
+    .estatisticas__infografico--dado-texto {
+        max-width: 214px;
+        margin-left: 22px;
+    }
+
+    .estatisticas__infografico--dado-circulo {
+        height: 93px;
+    }
+
+    .estatisticas__infografico--dados-fonte {
+        font-size: 14px;
+        max-width: 500px;
+        position: relative;
+        right: -72px
+    }
+
+    .estatisticas__quadro-8-milhoes {
+        margin-top: 64px;
+        height: 290px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .estatisticas__infografico--ilustracao-brazil {
+        width: 350px;
+        height: 383px;
+        margin-left: 20px;
+    }
+
+    .estatisticas__infografico--dado-circulo {
+        height: 123px;
+    }
+
+    .estatisticas__quadro-8-milhoes {
+        margin-top: 64px;
+        height: 354px;
+    }
+}
