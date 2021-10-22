@@ -4,6 +4,7 @@
         font-family: var(--josefin);
         color: var(--roxo-escuro);
         font-size: 12px;
+        padding-bottom: 32px;
     }
 }
 

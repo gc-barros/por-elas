@@ -1,0 +1,180 @@
+@media screen and (min-width: 0) {
+    .estatisticas__pobreza-menstrual {
+        max-width: 264px;
+        margin: 32px auto;
+    }
+
+    .estatisticas__pobreza-menstrual--ilustracao {
+        display: block;
+        margin: auto;
+        transform: rotate(-90deg);
+        width: 124px;
+        height: 200px;
+    }
+
+    .estatisticas__pobreza-menstrual--titulo {
+        font-size: 26px;
+        color: var(--roxo);
+        font-family: var(--awesome);
+        margin-bottom: 24px;
+    }
+
+    .estatisticas__pobreza-menstrual--paragrafo {
+        line-height: 1.4;
+    }
+
+    .estatisticas__pobreza-menstrual--paragrafo span {
+        display: block;
+        font-weight: 600;
+        color: var(--rosa);
+    }
+
+    .estatisticas__pobreza-menstrual--paragrafo::after {
+        content: '';
+        display: block;
+        height: 20px;
+        background: url(../../img/relatos/rabiscos.svg) no-repeat center / contain;
+        margin-top: 8px;
+    }
+
+    .estatisticas__cenario-br {
+        max-width: 280px;
+        margin: auto;
+    }
+
+    .estatisticas__cenario-br--ilustracao {
+        height: 230px;
+        background: url(../../img/estatisticas/pobrezaMenstrual2.svg) no-repeat center / contain;
+        margin-bottom: 32px;
+    }
+
+    .estatisticas__cenario-br--dado {
+        font-weight: 600;
+        line-height: 1.4;
+    }
+
+    .estatisticas__cenario-br--dado::after {
+        content: '';
+        display: block;
+        background: url(../../img/estatisticas/underline.svg) no-repeat center / contain;
+        height: 5px;
+        margin-top: 8px;
+        margin-bottom: 32px;
+    }
+
+    .estatisticas__cenario-br--fonte {
+        margin-top: -8px;
+        color: var(--rosa);
+        font-size: 12px;
+    }
+
+    .estatisticas__callToAction {
+        margin: 48px auto;
+        text-align: center;
+        max-width: 271px;
+    }
+
+    .estatisticas__callToAction--descricao {
+        font-family: var(--awesome);
+        font-size: 20px;
+        color: var(--roxo);
+        margin-bottom: 24px;
+    }
+
+    .estatisticas__callToAction--descricao span {
+        color: var(--rosa);
+    }
+
+    .relatos__call-to-action--botao.estatisticas__callToAction--botao {
+        background-color: var(--roxo);
+        color: var(--branco);
+        margin: 0;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .estatisticas__pobreza-menstrual {
+        display: flex;
+        max-width: 594px;
+        align-items: center;
+        margin-top: 80px;
+    }
+
+    .estatisticas__pobreza-menstrual--ilustracao {
+        height: 252px;
+        transform: rotate(0);
+        margin: 0;
+        margin-right: 40px;
+    }
+
+    .estatisticas__pobreza-menstrual--titulo {
+        font-size: 40px;
+    }
+
+    .estatisticas__pobreza-menstrual--paragrafo {
+        max-width: 414px;
+    }
+
+    .estatisticas__pobreza-menstrual--paragrafo::after {
+        height: 37px;
+    }
+
+    .estatisticas__cenario-br {
+        display: flex;
+        max-width: 594px;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        margin-top: 80px;
+    }
+
+    .estatisticas__cenario-br--ilustracao {
+        width: 255px;
+        height: 311px;
+    }
+
+    .estatisticas__pobreza-menstrual--paragrafo {
+        max-width: 487px;
+    }
+
+    .estatisticas__cenario-br--dado {
+        font-weight: 600;
+        line-height: 1.4;
+        max-width: 285px;
+    }
+
+    .estatisticas__cenario-br--fonte {
+        font-size: 14px;
+    }
+
+    .estatisticas__callToAction {
+        max-width: 481px;
+    }
+
+    .estatisticas__callToAction--descricao {
+        font-size: 32px;
+        margin-bottom: 32px;
+    }
+
+}
+
+@media screen and (min-width: 1024px) {
+    .estatisticas__pobreza-menstrual,
+    .estatisticas__cenario-br {
+        max-width: 725px;
+        justify-content: space-between;
+    }
+
+    .estatisticas__pobreza-menstrual--ilustracao {
+        width: 188px;
+        height: auto;
+        margin: 0;
+    }
+
+    .estatisticas__cenario-br--dado {
+        max-width: 397px;
+    }
+
+    .estatisticas__cenario-br--dado::after {
+        height: 7px;
+    }
+}

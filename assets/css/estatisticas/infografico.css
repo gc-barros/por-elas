@@ -39,6 +39,10 @@
         background: url(../../img/estatisticas/brazil.svg) no-repeat center / contain;
     }
 
+    .estatisticas__quadro-8-milhoes {
+        display: block;
+        margin: auto;
+    }
 }
 
 @media screen and (min-width: 768px) {
