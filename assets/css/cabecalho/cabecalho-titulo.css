@@ -49,22 +49,22 @@
         padding-left: 12px;
         padding-bottom: 24px;
     }
-    .cabecalho__navegacao--botoes li a{
+    .cabecalho__navegacao--botoes li a {
         text-decoration: none;
         color: var(--branco);
     }
-    .cabecalho__navegacao--botoes li:hover{
+    .cabecalho__navegacao--botoes li:hover {
         cursor: pointer;
     }
 
-    .cabecalho__botao{
+    .cabecalho__botao {
         max-width: 254px;
         margin: auto;
         padding-bottom: 40px;
         text-align: center;
     }
 
-    .cabecalho__botao--contatenos{
+    .cabecalho__botao--contatenos {
         text-decoration: none;
         background-color: var(--branco);
         color: var(--roxo);
@@ -117,11 +117,6 @@
 }
 
 @media screen and (min-width: 1024px) {
-    .cabecalho{
-        display: flex;
-        justify-content: space-around;
-    }
-
     .cabecalho__botao{
         align-items: center;
         top: 0px;
