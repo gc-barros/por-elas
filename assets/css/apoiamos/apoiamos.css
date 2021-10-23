@@ -96,6 +96,11 @@
         background: url(../../img/apoiamos/covid.svg) no-repeat center / contain;
         margin: 40px 0 24px 0;
         height: 150px;
+        position: relative;
+        animation-name: flutuar;
+        animation-duration: 5s;
+        animation-timing-function: ease;
+        animation-iteration-count: infinite;
     }
 
     .apoiamos__texto {

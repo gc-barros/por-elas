@@ -6,6 +6,10 @@
         background-size: contain;
         position: relative;
         height: 200px;
+        animation-name: flutuar;
+        animation-duration: 6s;
+        animation-timing-function: ease;
+        animation-iteration-count: infinite;
     }
 
     .relatos__ilustracao-principal--underline {

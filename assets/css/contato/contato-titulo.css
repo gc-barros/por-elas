@@ -1,10 +1,10 @@
 @media screen and (min-width: 0) {
     .contato {
         background-image: url(../../img/contato/background-contato.svg);
-        background-position: center 48%;
+        background-position: center 52%;
         background-repeat: no-repeat;
         background-size: 272vw;
-        padding-top: 24px;
+        padding-top: 48px;
     }
 
     .contato__logo {

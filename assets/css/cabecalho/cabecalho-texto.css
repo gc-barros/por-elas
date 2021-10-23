@@ -1,13 +1,16 @@
 @media screen and (min-width: 0) {
+
     .cabecalho__texto--titulo{
         font-family: var(--awesome);
-        font-size: 34px;
+        font-size: 28px;
         color: var(--rosa-claro);
-        padding: 21px;
         align-items: center;
+        max-width: 278px;
+        margin: auto;
+        margin-top: 56px;
     }
 
-    .destaque--rosa{
+    .destaque--rosa {
         color:var(--rosa);
         font-weight: 100;
     }
@@ -17,92 +20,113 @@
         color: var(--branco);
         font-weight: 600;
         font-size: 12px;
-        /* max-width: 400px; */
-        padding: 0px 26px 26px 26px;
+        max-width: 278px;
+        margin: 24px auto;
+        line-height: 1.4;
     }
 
 
     .cabecalho__texto--botoes{
         display: flex;
-        justify-content: center;
         padding-bottom: 20px;
+        max-width: 278px;
+        margin: auto;
     }
 
     .botao1{
-        padding: 8px;
-        width: 120px;
+        padding: 8px 14px;
+        width: 128px;
         height: 24px;
         line-height: 10px;
         font-size: 12px;
-        font-weight: bold;
-        margin-right: 20px;
+        font-weight: 700;
         font-family: var(--josefin);
         background-color: var(--branco);
         color: var(--roxo);
         border-radius: 15px;
         transition: 0.5s ease-out all;
+        margin-right: 14px;
     }
 
     .botao2{
-        padding: 8px;
-        width: 120px;
+        padding: 8px 14px;
+        width: 128px;
         height: 26px;
         line-height: 8px;
         font-size: 12px;
-        font-weight: bold;
+        font-weight: 700;
         font-family: var(--josefin);
-        border: 1.25px solid var(--branco);
+        border: 2px solid var(--branco);
         color: var(--branco);
         border-radius: 15px;
         transition: 0.5s ease-out all;
     }
 
-    .botao1:hover, .botao2:hover{
-        transform: scale(1.1);
+    .botao1:hover {
+        background-color: var(--rosa-claro);
+    }
+
+    .botao2:hover {
+        border-color: var(--rosa-claro);
+        color: var(--rosa-claro)
+    }
+
+    @keyframes flutuar {
+        0% {
+            bottom: 0px;
+        }
+
+        50% {
+            bottom: -18px;
+        }
+
+        100% {
+            bottom: 0px;
+        }
     }
 
     .cabecalho__texto--imagem{
+        background: url(../../img/cabecalho/mulheres-cabecalho.svg) no-repeat center / contain;
+        display: block;
+        margin: 60px auto;
         width: 280px;
         height: 284px;
+        position: relative;
+        bottom: 0px;
+        animation-name: flutuar;
+        animation-duration: 3.2s;
+        animation-timing-function: ease;
+        animation-iteration-count: infinite;
     }
 
-    .onda{
-        background-image: url(../img/waves.svg);
-        height: 30px;
-        position: relative;
-        z-index: 2;
-        
-    }
 }
 
 @media screen and (min-width: 768px) {
     .cabecalho__texto--titulo{
         font-size: 48px;
-        padding-left: 161px;
-        padding-right: 142px;
+        max-width: 465px;
     }
 
     .cabecalho__texto--corpo {
-        position: absolute;
-        left: 138px;
         font-size: 16px;
-        max-width: 520px;
+        max-width: 465px;
+        margin: 32px auto;
     }
 
     .cabecalho__texto--botoes {
-        margin-top: 90px;
+        max-width: 465px;
     }
 
     .botao1, .botao2 {
-        padding: 10px;
+        padding: 10px 24px;
         font-size: 16px;
+        border-radius: 32px;
     }
 
     .cabecalho__texto--imagem{
         width: 470px;
-        height: 363px;
-        margin-left: 250px;
-        
+        height: 363px; 
+        margin: 54px auto 72px auto;   
     }
 }
 
@@ -114,24 +138,20 @@
     
     .cabecalho__container {
         display: flex;
-        justify-content: center;
+        justify-content: space-between;
         padding-top: 50px;
-        /* align-items: center; */
-    }
-
-    .cabecalho__container--informacoes {
-        display: flex;
-        flex-direction: column;
-        padding-left: 40px
+        max-width: 844px;
+        margin: auto;
+        position: relative;
+        right: -40px;
     }
 
     .cabecalho__texto--titulo {
         padding: 0px;
-        margin-bottom: 10px;
-        max-width: 500px;
     }
 
     .cabecalho__texto--corpo {
+        margin-top: 32px;
         padding: 0;
         position: initial;
         max-width: 465px;
@@ -144,6 +164,9 @@
     }
 
     .cabecalho__texto--imagem {
-        margin: 50px 0 0 0;
+        margin: 96px 0 140px 0px;
+        height: 300px;
+        width: 350px;
+        right: -40px;
     }
 }

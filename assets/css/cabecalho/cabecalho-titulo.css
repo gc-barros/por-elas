@@ -1,4 +1,5 @@
 @media screen and (min-width: 0) {
+    
     .cabecalho__titulo{
         text-align: center;
         font-size: 34px;
@@ -10,6 +11,14 @@
         display: flex;
         align-items: center;
         justify-content: center;
+        transition: 0.5s ease-out all;
+    }
+
+    .cabecalho__titulo:hover {
+        transform: scale(1.1);
+    }
+    .cabecalho__titulo a {
+        color: white;
     }
 
     .cabecalho__titulo::before{
@@ -27,7 +36,7 @@
     .cabecalho__navegacao--botoes{
         font-family: var(--josefin);
         font-weight: 700;
-        font-size: 12px;
+        font-size: 14px;
         display: flex;
         flex-direction: row;
         justify-content: center;
@@ -42,13 +51,31 @@
         background-size: contain;
         width: 8px;
         height: 8px;
-        padding-right: 6px;
+        padding-right: 8px;
     }
     
-    .cabecalho__navegacao--botoes li{
+    .cabecalho__navegacao--botoes li {
+        padding: 0 12px 24px 12px;
         padding-left: 12px;
         padding-bottom: 24px;
     }
+
+    .cabecalho__botao-nav::after {
+        content: '';
+        display: block;
+        height: 2px;
+        border-radius: 24px;
+        margin-top: 4px;
+        margin-left: 17px;
+        background-color: var(--lilas);
+        width: 0;
+        transition: .5s ease-out all;
+    }
+
+    .cabecalho__botao-nav:hover::after{
+        width: calc(100% - 17px);
+    }
+
     .cabecalho__navegacao--botoes li a {
         text-decoration: none;
         color: var(--branco);
@@ -60,7 +87,7 @@
     .cabecalho__botao {
         max-width: 254px;
         margin: auto;
-        padding-bottom: 40px;
+        padding-bottom: 32px;
         text-align: center;
     }
 
@@ -73,7 +100,7 @@
         font-size: 12px;
         border-radius: 20px;
         display: inline-block;
-        width: 96px;
+        width: 110px;
         height: 28px;
         line-height: 28px;
         transition: 0.5s ease-out all;
@@ -86,6 +113,7 @@
 }
 
 @media screen and (min-width: 768px) {
+
     .cabecalho__navegacao{
         display: flex;
         justify-content: center;
@@ -104,11 +132,12 @@
     
     .cabecalho__botao--contatenos{
         text-align: center;
-        margin-left: 20px;
+        margin-left: 8px;
         font-size: 16px;
-        width: 110px;
+        width: 124px;
         height: 32px;
         line-height: 35px;
+        margin-right: 8px;
     }
     .cabecalho__titulo{
         font-size: 36px;
@@ -117,7 +146,23 @@
 }
 
 @media screen and (min-width: 1024px) {
+    .cabecalho__menu {
+        justify-content: space-between;
+        max-width: 768px;
+        margin: auto;
+    }
+
+    .cabecalho__titulo {
+        font-size: 28px;
+    }
+
+    .cabecalho__titulo::before {
+        width: 24px;
+        height: 34px;
+    }
+
     .cabecalho__botao{
+        justify-content: space-between;
         align-items: center;
         top: 0px;
         padding-bottom: 0px;
@@ -131,7 +176,7 @@
     }
 
     .cabecalho__navegacao--botoes li{
-        margin-left: 40px;
+        margin: 0 10px;
     }
     
     .cabecalho__navegacao--botoes li:last-child{

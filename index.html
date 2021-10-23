@@ -6,7 +6,6 @@
     <meta name="theme-color" content="#9162A4">
  
     <meta id="vp" name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta id="vp" name="viewport" content="width=320">
 
     <!-- Título -->
     <title>POR ELAS | Nossa luta é a luta das mulheres </title>
@@ -76,46 +75,47 @@
     <!-- CSS do rodapé -->
     <link rel="stylesheet" href="assets/css/rodape.css">
 
-    <!-- NÃO ESQUECER: script para corrigir o viewport em dispositivos móveis. -->
-    <!-- <script src="assets/js/viewportAdjust.js"></script> -->
+    <!-- Script para corrigir o viewport em dispositivos móveis. -->
+    <script src="assets/js/viewportAdjust.js"></script>
 </head>
 
 <body>
     <!-- Inicio -->
-    <header>
-        <section class="cabecalho">
-            <div class="cabecalho__menu">
-                <div class="cabecalho__titulo">
-                    <h2>POR ELAS</h2>
-                </div>
-        
-                <div class="cabecalho__navegacao">
-                    <ul class="cabecalho__navegacao--botoes">
-                        <li><a href="#">Sobre</a></li>
-                        <li><a href="#">Ações</a></li>
-                        <li><a href="#">Como Ajudar</a></li>
-                    </ul>
-                    
-                    <ul class="cabecalho__botao">
-                        <li><a href="#" class="cabecalho__botao--contatenos">Contate-nos</a></li>
-                    </ul>
-                </div>
+
+    <section class="cabecalho">
+
+        <header class="cabecalho__menu">
+            <div class="cabecalho__titulo">
+                <a href="https://www.instagram.com/porelas.slz/" target="_blank" rel="external"><h2>POR ELAS</h2></a>
             </div>
-            
-            <div class="cabecalho__container">
-                <div class="cabecalho__container--informacoes">
-                    <h2 class="cabecalho__texto--titulo">SEJA UMA <strong class="destaque--rosa">MULHER</strong> QUE LEVANTA OUTRAS <strong class="destaque--rosa">MULHERES</strong></h2>
-                    <h3 class="cabecalho__texto--corpo">Que o poder público não liga para mulheres não é novidade, mas até quando mulheres em péssimas condições continuarão vivendo sem proteção e cuidado?</h3>
     
-                    <ul class="cabecalho__texto--botoes">
-                        <li><a href="#" class="botao1">Conheça o projeto</a></li>
-                        <li><a href="#" class="botao2">Apoie esta causa</a></li>
-                    </ul>
-                </div>
-                <img src="assets/img/cabecalho/mulheres-cabecalho.svg" alt="mulheres-representatividade" class="cabecalho__texto--imagem">
+            <nav class="cabecalho__navegacao">
+                <ul class="cabecalho__navegacao--botoes">
+                    <li class="cabecalho__botao-nav"><a href="#sobre">Sobre</a></li>
+                    <li class="cabecalho__botao-nav"><a href="#acoes">Ações</a></li>
+                    <li class="cabecalho__botao-nav"><a href="#comoAjudar">Como Ajudar</a></li>
+                </ul>
+                
+                <ul class="cabecalho__botao">
+                    <li><a href="#contato" class="cabecalho__botao--contatenos">Contate-nos</a></li>
+                </ul>
+            </nav>
+        </header>
+        
+        <div class="cabecalho__container">
+            <div class="cabecalho__container--informacoes">
+                <h1 class="cabecalho__texto--titulo">SEJA UMA <strong class="destaque--rosa">MULHER</strong> QUE LEVANTA OUTRAS <strong class="destaque--rosa">MULHERES</strong></h1>
+                <h2 class="cabecalho__texto--corpo">Que o poder público não liga para mulheres não é novidade, mas até quando mulheres em péssimas condições continuarão vivendo sem proteção e cuidado?</h2>
+
+                <ul class="cabecalho__texto--botoes">
+                    <li><a href="#sobre" class="botao1">Conheça o projeto</a></li>
+                    <li><a href="#comoAjudar" class="botao2">Apoie esta causa</a></li>
+                </ul>
             </div>
-        </section>
-    </header>
+            <div class="cabecalho__texto--imagem"></div>
+        </div>
+    </section>
+
     
     <!-- Botão de voltar ao topo -->
     <button onclick="topFunction()" id="scroll-button" title="Vá para o início da página">
@@ -217,13 +217,13 @@
 
     <!-- Section 3 | Conheça o projeto -->
     <div class="sobre__listras"></div>
-    <section class="sobre">
-        <h1 class="sobre__titulo">conheça o projeto</h1>
+    <section class="sobre" id="sobre">
+        <h2 class="sobre__titulo">conheça o projeto</h2>
         <div class="sobre__logo"></div>
         
         <div class="sobre__inicio">
             <div class="sobre__inicio-box-texto">
-                <h2 class="sobre__subtitulo">o início</h2>
+                <h3 class="sobre__subtitulo">o início</h3>
                 <p class="sobre__paragrafo">Nosso projeto nasceu como um sonho de mudar esse cenário e, posteriormente, fomos ampliando aos poucos. Estamos crescendo a cada
                     dia mais. Somos o primeiro e único projeto no Maranhão voltado para a pobreza menstrual e em panorama nacional também estamos 
                     entre os únicos.</p>
@@ -234,7 +234,7 @@
         
         <div class="sobre__objetivo">
             <div class="sobre__objetivo-texto">
-                <h2 class="sobre__subtitulo">missão</h2>
+                <h3 class="sobre__subtitulo">missão</h3>
                 <p class="sobre__paragrafo">Unir e mobilizar um grupo de pessoas para pensar e realizar ações para mulheres em São Luís - MA, proporcionando acolhimento e 
                     melhores condições para aquelas que estão em situações vulneráveis.</p>
                 <div class="sobre__linha"></div>
@@ -244,7 +244,7 @@
 
         <div class="sobre__luta">
             <div class="sobre__luta-texto">
-                <h2 class="sobre__subtitulo">nossa luta é a <strong>luta das mulheres</strong></h2>
+                <h4 class="sobre__subtitulo">nossa luta é a <strong>luta das mulheres</strong></h4>
                 <p class="sobre__luta-paragrafo">Estamos vivendo uma pandemia. Esse cenário mundial amplia todas as desigualdades existentes: por mais que a saúde seja o foco no 
                     momento, diversos desdobsramentos sociopolíticos precisam ser considerados. Especialmente na vida das mulheres.</p>
                 <div class="sobre__linha"></div>
@@ -270,7 +270,7 @@
     </section>
     
     <!-- Section 4 | Nossas ações por elas -->
-    <section class="acoes">
+    <section class="acoes" id="acoes">
         <div class="acoes__titulo"></div>
         
         <!-- Adicionando imagens da galeria -->
