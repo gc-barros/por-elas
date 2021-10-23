@@ -29,10 +29,6 @@
         background-position: center;
         height: 130px;
         position: relative;
-        animation-name: flutuar;
-        animation-duration: 3.2s;
-        animation-timing-function: ease;
-        animation-iteration-count: infinite;
     }
 
     .sobre__luta-paragrafo {
