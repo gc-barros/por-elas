@@ -1,0 +1,147 @@
+@media screen and (min-width: 0) {
+    .cabecalho__titulo{
+        text-align: center;
+        font-size: 34px;
+        font-weight: 400;
+        font-family: var(--awesome);
+        color: white;
+        padding-top: 36px;
+        padding-bottom: 34px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .cabecalho__titulo::before{
+        content: '';
+        background-image: url(../img/female-symbol.svg);
+        display: inline-block;
+        position: relative;
+        width: 32px;
+        height: 46px;
+        background-repeat: no-repeat;
+        background-size: contain;
+        padding-right: 8px;
+        
+    }
+    .cabecalho__navegacao--botoes{
+        font-family: var(--josefin);
+        font-weight: 700;
+        font-size: 12px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        
+    }
+    .cabecalho__navegacao--botoes li::before{
+        content: '';
+        background-image: url(../img/Ellipse\ 6.svg);
+        display: inline-block;
+        position: relative;
+        background-repeat: no-repeat;
+        background-size: contain;
+        width: 8px;
+        height: 8px;
+        padding-right: 6px;
+    }
+    
+    .cabecalho__navegacao--botoes li{
+        padding-left: 12px;
+        padding-bottom: 24px;
+    }
+    .cabecalho__navegacao--botoes li a{
+        text-decoration: none;
+        color: var(--branco);
+    }
+    .cabecalho__navegacao--botoes li:hover{
+        cursor: pointer;
+    }
+
+    .cabecalho__botao{
+        max-width: 254px;
+        margin: auto;
+        padding-bottom: 40px;
+        text-align: center;
+    }
+
+    .cabecalho__botao--contatenos{
+        text-decoration: none;
+        background-color: var(--branco);
+        color: var(--roxo);
+        font-family: var(--josefin);
+        font-weight: 700;
+        font-size: 12px;
+        border-radius: 20px;
+        display: inline-block;
+        width: 96px;
+        height: 28px;
+        line-height: 28px;
+        transition: 0.5s ease-out all;
+
+    }
+
+    .cabecalho__botao--contatenos:hover{
+        transform: scale(1.1);
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .cabecalho__navegacao{
+        display: flex;
+        justify-content: center;
+
+    }
+
+    .cabecalho__botao{
+        display: flex;
+        position: relative;
+        top: -9px;
+        margin: 0 0px;
+    }
+    .cabecalho__navegacao--botoes li{
+        font-size: 16px;
+    }
+    
+    .cabecalho__botao--contatenos{
+        text-align: center;
+        margin-left: 20px;
+        font-size: 16px;
+        width: 110px;
+        height: 32px;
+        line-height: 35px;
+    }
+    .cabecalho__titulo{
+        font-size: 36px;
+    }
+    
+}
+
+@media screen and (min-width: 1024px) {
+    .cabecalho{
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .cabecalho__botao{
+        align-items: center;
+        top: 0px;
+        padding-bottom: 0px;
+    }
+
+    .cabecalho__navegacao--botoes{
+        align-items: center;
+        top: 0px;
+        padding-bottom: 0px;
+        padding-top: 25px;
+    }
+
+    .cabecalho__navegacao--botoes li{
+        margin-left: 40px;
+    }
+    
+    .cabecalho__navegacao--botoes li:last-child{
+        margin-right: 20px;
+    }
+
+}
+

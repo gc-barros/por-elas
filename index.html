@@ -1,467 +1,59 @@
 <!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="theme-color" content="#9162A4">
- 
-    <meta id="vp" name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- <meta id="vp" name="viewport" content="width=320"> -->
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="theme-color" content="#9162A4">
+        <meta id="vp" name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <!-- Título -->
-    <title>POR ELAS | Nossa luta é a luta das mulheres </title>
+        <title>POR ELAS | Nossa luta é a luta das mulheres </title>
+        <meta name="description" content="Que o poder público não liga para mulheres não é novidade, mas até quando mulheres em péssimas condições continuarão vivendo sem proteção e cuidado? Nosso projeto nasceu como um sonho de mudar esse cenário e, posteriormente, fomos ampliando aos poucos. Estamos crescendo a cada dia mais. Somos o primeiro e único projeto no Maranhão voltado para a pobreza menstrual e em panorama nacional também estamos entre os únicos.">
 
-    <!-- Descrição -->
-    <meta name="description" content="Que o poder público não liga para mulheres não é novidade, mas até quando mulheres em péssimas condições continuarão vivendo sem proteção e cuidado? Nosso projeto nasceu como um sonho de mudar esse cenário e, posteriormente, fomos ampliando aos poucos. Estamos crescendo a cada dia mais. Somos o primeiro e único projeto no Maranhão voltado para a pobreza menstrual e em panorama nacional também estamos entre os únicos.">
+        <link rel="shortcut icon" href="../por-elas-cabecalho/assets/img/favicon.ico" type="image/x-icon">
+        <link rel="stylesheet" href="../por-elas-cabecalho/assets/reset.css">
+        <link rel="stylesheet" href="../por-elas-cabecalho/assets/normalize.css">
+        <link rel="stylesheet" href="../por-elas-cabecalho/assets/variaveis.css">
 
-    <!-- Favicon da página -->
-    <link rel="shortcut icon" href="assets/img/favicon.ico" type="image/x-icon">
+        <link rel="stylesheet" href="../por-elas-cabecalho/assets/css/cabecalho.css">
+        <link rel="stylesheet" href="../por-elas-cabecalho/assets/css/cabecalho-titulo.css">
+        <link rel="stylesheet" href="../por-elas-cabecalho/assets/css/cabecalho-texto.css">
+    </head>
 
-    <!-- Ícones -->
-    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <body>
+        <header>
+            <section class="cabecalho">
+                <div class="cabecalho__titulo"><h2>POR ELAS</h2></div>
 
-    <!-- Folhas de estilo -->
-    <link rel="stylesheet" href="assets/css/reset.css">
-    <link rel="stylesheet" href="assets/css/normalize.css">
-    <link rel="stylesheet" href="assets/css/variaveis.css">
-    <link rel="stylesheet" href="assets/css/voltarAoTopo.css">
-    
-    <!-- CSS da seção 'estatísticas' -->
-    <link rel="stylesheet" href="assets/css/estatisticas/estatisticas.css">
-    <link rel="stylesheet" href="assets/css/estatisticas/duvida.css">
-    <link rel="stylesheet" href="assets/css/estatisticas/introducao.css">
-    <link rel="stylesheet" href="assets/css/estatisticas/infografico.css">
-    <link rel="stylesheet" href="assets/css/estatisticas/pobrezaMenstrual.css">
-
-    <!-- CSS da seção 'sobre' -->
-    <link rel="stylesheet" href="assets/css/sobre/sobre-principal.css">
-    <link rel="stylesheet" href="assets/css/sobre/sobre-box.css">
-    <link rel="stylesheet" href="assets/css/sobre/sobre-contribuicao.css">
-    <link rel="stylesheet" href="assets/css/sobre/sobre-video.css">
-    
-    <!-- CSS da seção 'sobre ações' -->
-    <link rel="stylesheet" href="assets/css/acoes/acoes-principal.css">
-    <link rel="stylesheet" href="assets/css/acoes/acoes-contribuicao.css">
-    <link rel="stylesheet" href="assets/css/acoes/acoes-subtitulo.css">
-    
-    <!-- CSS da seção 'relatos' -->
-    <link rel="stylesheet" href="assets/css/relatos/relatos.css">
-    <link rel="stylesheet" href="assets/css/relatos/relatos-ilustracaoPrincipal.css">
-    <link rel="stylesheet" href="assets/css/relatos/relatos-introducao.css">
-    <link rel="stylesheet" href="assets/css/relatos/relatos-relatoBox.css">
-    <link rel="stylesheet" href="assets/css/relatos/relatos-boxIlustracao.css">
-    <link rel="stylesheet" href="assets/css/relatos/relatos-callToAction.css">
-
-    <!-- CSS da seção 'como ajudar' -->
-    <link rel="stylesheet" href="assets/css/comoAjudar/comoAjudar.css">
-    <link rel="stylesheet" href="assets/css/comoAjudar/comoAjudar-titulo.css">
-    <link rel="stylesheet" href="assets/css/comoAjudar/comoAjudar-cards.css">
-    <link rel="stylesheet" href="assets/css/comoAjudar/comoAjudar-highlights.css">
-    <link rel="stylesheet" href="assets/css/comoAjudar/comoAjudar-lojinha.css">
-
-    <!-- CSS da seção 'Por Elas apoia' -->
-    <link rel="stylesheet" href="assets/css/apoiamos/apoiamos.css">
-
-    <!-- CSS do rodapé -->
-    <link rel="stylesheet" href="assets/css/rodape.css">
-
-    <!-- NÃO ESQUECER: script para corrigir o viewport em dispositivos móveis. -->
-    <!-- <script src="assets/js/viewportAdjust.js"></script> -->
-</head>
-
-<body>
-    <!-- Inicio -->
-    <h1>Olá, Mundo!</h1>
-    
-    <!-- Botão de voltar ao topo -->
-    <button onclick="topFunction()" id="scroll-button" title="Vá para o início da página">
-        <i class="ri-arrow-up-circle-line"></i>
-    </button>
-
-    <!-- Section 2 | As estatísticas assustam -->
-    <section class="estatisticas">
-        <!-- Dúvida -->
-        <div class="estatisticas__duvida--ilustracao"></div>
-        <h3 class="estatisticas__duvida--texto">
-            quantos projetos destinados exclusivamente à <span>luta pelos direitos femininos</span> você conhece?
-        </h3>
-
-        <!-- Introdução -->
-        <div class="estatisticas__introducao">
-            <div class="estatisticas__introducao--container">
-                <h2 class="estatisticas__introducao--titulo">As estatísticas assustam</h2>
-                <p class="estatisticas__introducao--descricao">Você sabia que milhares de mulheres são expostas a todo o tipo de violência sexual, social e moral todos os dias? Nós, do Projeto Por Elas, sabemos que essas cidadãs precisam de um olhar diferenciado e fazemos o possível para mudar essa realidade.</p>
-            </div>
-            <div class="estatisticas__introducao--ilustracao"></div>
-        </div>
-
-        <!-- Infográfico -->
-        <div class="estatisticas__infografico">
-            <!-- Dados -->
-            <div class="estatisticas__infografico--dados">
-                <!-- Dado 1 -->
-                <div class="estatisticas__infografico--dado">
-                    <img src="assets/img/estatisticas/dado-1.svg" class="estatisticas__infografico--dado-circulo" alt="70% da violência sexual, ilustração">
-                    <div class="estatisticas__infografico--dado-texto">da violência sexual contra crianças ocorre dentro de casa.</div>
+                <div class="cabecalho__navegacao">
+                    <ul class="cabecalho__navegacao--botoes">
+                        <li><a href="#">Sobre</a></li>
+                        <li><a href="#">Ações</a></li>
+                        <li><a href="#">Como Ajudar</a></li>
+                    </ul>
+                    <ul class="cabecalho__botao">
+                        <li><a href="#" class="cabecalho__botao--contatenos">Contate-nos</a></li>
+                    </ul>
                 </div>
+                <div class="cabecalho__texto">
+                    <h2 class="cabecalho__texto--titulo">SEJA UMA <strong class="destaque--rosa">MULHER</strong> QUE LEVANTA OUTRAS <strong class="destaque--rosa">MULHERES</strong></h2>
+                    <h3 class="cabecalho__texto--corpo">Que o poder público não liga para mulheres não é novidade, mas até quando mulheres em péssimas condições continuarão vivendo sem proteção e cuidado?</h3>
 
-                <!-- Dado 2 -->
-                <div class="estatisticas__infografico--dado">
-                    <img src="assets/img/estatisticas/dado-3.svg" class="estatisticas__infografico--dado-circulo" alt="2/3 dos feminicídios, ilustração">
-                    <div class="estatisticas__infografico--dado-texto">dos feminicídios acontecem dentro de casa.</div>
+                    <ul class="cabecalho__texto--botoes">
+                        <li><a href="#" class="botao1">Conheça o projeto</a></li>
+                        <li><a href="#" class="botao2">Apoie esta causa</a></li>
+                    </ul>
+
+                    <img src="../por-elas-cabecalho/assets/img/mulheres-cabecalho.svg" alt="mulheres-representatividade" class="cabecalho__texto--imagem">
                 </div>
-                
-                <!-- Dado 3 -->
-                <div class="estatisticas__infografico--dado">
-                    <img src="assets/img/estatisticas/dado-2.svg" class="estatisticas__infografico--dado-circulo" alt="a cada 2 minutos, ilustração">
-                    <div class="estatisticas__infografico--dado-texto">a cada 2 minutos uma mulher é vítima de violência doméstica.</div>
-                </div>
-                
-                <!-- Dado 4 -->
-                <div class="estatisticas__infografico--dado">
-                    <img src="assets/img/estatisticas/dado-4.svg" class="estatisticas__infografico--dado-circulo" alt="1 a cada 4 mulheres, ilustração">
-                    <div class="estatisticas__infografico--dado-texto">1 a cada 4 mulheres faltou a aula por não poder comprar absorvente.</div>
-                </div>
+            </section>
+            <div class="onda"></div>
 
-                <p class="estatisticas__infografico--dados-fonte">Fontes: Agência Brasil, Fórum Brasileiro de Segurança Pública e MPE/SP.</p>
-            </div>
+        </header>
 
-            <!-- Brasil -->
-            <div class="estatisticas__infografico--ilustracao-brazil"></div>
-            
-        </div>
 
-        <!-- Quadro 8.000.000 -->
-        <img src="assets/img/estatisticas/8.000.000.svg" alt="Quadro que apresenta o dado de que 8.000.000 mulheres estão em situação de extrema pobreza no Brasil, sendo 70% delas negras. Fonte: IBGE." class="estatisticas__quadro-8-milhoes">
 
-        <!-- Pobreza menstrual -->
-        <div class="estatisticas__pobreza-menstrual">
-            <!-- Ilustração -->
-            <img class="estatisticas__pobreza-menstrual--ilustracao" src="assets/img/estatisticas/pobrezaMenstrual.svg" alt="Ilustração contendo um útero, absorvente, rosas e outros produtos de higiene femininos.">
-            <!-- Texto -->
-            <div class="estatisticas__pobreza-menstrual--texto">
-                <h3 class="estatisticas__pobreza-menstrual--titulo">pobreza menstrual</h3>
-                <p class="estatisticas__pobreza-menstrual--paragrafo">"Meninas por todo o mundo faltam às aulas durante o período menstrual ou, até mesmo, deixam a escola. Meninas e mulheres por todo o mundo sofrem estigmas sociais causados pela menstruação. Meninas e mulheres por todo o mundo não têm acesso a produtos básicos de higiene menstrual e saneamento básico."
-                <span>- Trecho retirado do QG Feminista.</span></p>
-            </div>
-        </div>
 
-        <!-- Cenário brasileiro -->
-        <div class="estatisticas__cenario-br">
-            <!-- Ilustração -->
-            <div class="estatisticas__cenario-br--ilustracao"></div>
-            <!-- Dados -->
-            <div class="estatisticas__cenario-br--dados">
-                <p class="estatisticas__cenario-br--dado">12,5% das mulheres ao redor do mundo estão na condição de pobreza menstrual.</p>
-                <p class="estatisticas__cenario-br--dado">No Brasil, 19% das mulheres entre 18 e 25 anos não possuem condições de comprar absorvente, devido ao elevado preço.</p>
+    </body>
 
-                <p class="estatisticas__cenario-br--fonte"><strong>Fonte:</strong> Sempre Livre.</p>
-            </div>
-        </div>
 
-        <!-- Call to action -->
-        <div class="estatisticas__callToAction">
-            <!-- Texto -->
-            <h4 class="estatisticas__callToAction--descricao">Mais do que nunca precisamos de vocês.
-            <span>Elas precisam de nós!</span></h4>
-            <!-- Botão -->
-            <a class="relatos__call-to-action--botao estatisticas__callToAction--botao" href="#comoAjudar">Seja um contribuidor</a>
-        </div>
-
-    </section>
-
-    <!-- Section 3 | Conheça o projeto -->
-    <div class="sobre__listras"></div>
-    <section class="sobre">
-        <h1 class="sobre__titulo">conheça o projeto</h1>
-        <div class="sobre__logo"></div>
-        
-        <div class="sobre__inicio">
-            <div class="sobre__inicio-box-texto">
-                <h2 class="sobre__subtitulo">o início</h2>
-                <p class="sobre__paragrafo">Nosso projeto nasceu como um sonho de mudar esse cenário e, posteriormente, fomos ampliando aos poucos. Estamos crescendo a cada
-                    dia mais. Somos o primeiro e único projeto no Maranhão voltado para a pobreza menstrual e em panorama nacional também estamos 
-                    entre os únicos.</p>
-                <div class="sobre__linha"></div>
-            </div>
-            <div class="sobre__inicio-img"></div>
-        </div>
-        
-        <div class="sobre__objetivo">
-            <div class="sobre__objetivo-texto">
-                <h2 class="sobre__subtitulo">missão</h2>
-                <p class="sobre__paragrafo">Unir e mobilizar um grupo de pessoas para pensar e realizar ações para mulheres em São Luís - MA, proporcionando acolhimento e 
-                    melhores condições para aquelas que estão em situações vulneráveis.</p>
-                <div class="sobre__linha"></div>
-            </div>
-            <div class="sobre__objetivo-img"></div>
-        </div>
-
-        <div class="sobre__luta">
-            <div class="sobre__luta-texto">
-                <h2 class="sobre__subtitulo">nossa luta é a <strong>luta das mulheres</strong></h2>
-                <p class="sobre__luta-paragrafo">Estamos vivendo uma pandemia. Esse cenário mundial amplia todas as desigualdades existentes: por mais que a saúde seja o foco no 
-                    momento, diversos desdobsramentos sociopolíticos precisam ser considerados. Especialmente na vida das mulheres.</p>
-                <div class="sobre__linha"></div>
-            </div>
-            <div class="sobre__luta-img"></div>
-        </div>
-        
-        <video class="sobre__video" controls>
-            <source src="assets/img/sobre/shiba-inu.mp4" type="video/mp4">
-            <p>Seu navegador não suporta vídeos. :(</p>
-        </video>
-
-        <div class="sobre__contribuicao">        
-            <h3 class="sobre__titulo-incentivo">Contamos com <span style="color: var(--rosa-claro);" >você</span> para fazer com que nosso alcance esteja em constante crescimento!</h3>
-            <div class="sobre__botoes-interativos">
-                <a class="sobre__botoes-1" href="#comoAjudar">Quero ajudar!</a>
-                <a class="sobre__botoes-2" href="#">Entrar em contato</a>
-            </div>
-        </div>
-
-        <div class="sobre__rabiscos"></div>
-        <div class="sobre__listras"></div>
-    </section>
-    
-    <!-- Section 4 | Nossas ações por elas -->
-    <section class="acoes">
-        <div class="acoes__titulo"></div>
-        
-        <!-- Adicionando imagens da galeria -->
-        <div class="acoes__galeria">
-            <img class="acoes__galeria-grupo1" src="assets/img/acoes/galeria-grupo1.png" alt="Fotos de ações realizadas pelo projeto: doaçoes 
-            para a Casa da Gestante e para mulheres que sofreram com violência doméstica.">
-            <img class="acoes__galeria-grupo2" src="assets/img/acoes/galeria-grupo2.png" alt="Sequência com doações para mulheres em 
-            situação de rua">
-            <img class="acoes__galeria-grupo3" src="assets/img/acoes/galeria-grupo3.png" alt="e voluntários do Projeto POR ELAS com as doações 
-            recebidas.">
-        </div>
-        
-        <div class="acoes__subtitulo">
-            <div class="acoes__rabisco"></div>
-            <p class="acoes__paragrafo">“As relações humanas só fazem sentido com apoio mútuo. É por isso que estamos orgulhosos das relações que já desenvolvemos, 
-                unidos em prol de algo muito maior.”</p>
-        </div>
-
-        <!-- Botão -->
-        <h3 class="acoes__titulo-incentivo">precisamos da sua ajuda para irmos <span style="color: var(--rosa);">cada vez mais longe!</span></h3>
-        <a class="acoes__botao" href="#comoAjudar">Impulsionar o projeto</a>
-
-    </section>
-    
-    <!-- Section 5 | Relatos e histórias reais -->
-    <div class="losangos"></div>
-
-    <section class="relatos">
-
-        <!-- Ilustração principal -->
-        <div class="relatos__ilustracao-principal">
-            <div class="relatos__ilustracao-principal--underline"></div>
-        </div>
-
-        <!-- Introdução -->
-        <h2 class="relatos__introducao">confira alguns depoimentos de pessoas que tiveram o seu dia <strong class="destaque-rosa">transformado positivamente</strong></h2>
-        <div class="relatos__introducao-rabiscos"></div>
-
-        <!-- Box de relatos -->
-        <div class="relatos__relato-box">
-            <!-- Ilustração -->
-            <div class="relatos__relato-box--ilustracao-carinhas"></div>
-            <!-- Relato -->
-            <q class="relatos__relato-box--quote">
-                “Tenho um sentimento muito forte de agradecimento, vocês cuidam muito de nós que moramos na rua, e minhas filhas vão ficar muito ‘feliz’ por essas coisas de higiene. Elas não ‘tão’ aqui comigo por causa dessa doença, estamos com medo.”
-                <span class="relatos__relato-box--autor">(Arlindo, ao receber kits do Projeto Por Elas)</span>
-            </q>
-        </div>
-
-        <div class="relatos__relato-box">
-            <!-- Ilustração -->
-            <div class="relatos__relato-box--ilustracao-coracao"></div>
-            <!-- Relato -->
-            <q class="relatos__relato-box--quote">
-                “Faz horas que estou aqui, e nenhum carro parou. Vocês vieram e me deram coisas pra eu ficar cheirosa, muito obrigada, essa vida é dura, mas Deus manda os anjos dele pra ajudar.”
-                <span class="relatos__relato-box--autor">(Mariene, 51 anos, ao receber um kit do Projeto Por Elas)</span>
-            </q>
-        </div>
-
-        <div class="relatos__relato-box">
-            <!-- Ilustração -->
-            <div class="relatos__relato-box--ilustracao-maos"></div>
-            <!-- Relato -->
-            <q class="relatos__relato-box--quote">
-                “Nem acredito, ontem foi meu aniversário e eu não tinha nada, e hoje vocês trouxeram esse presente, vocês são uns amores, estão no meu coração, obrigada por sempre nos ajudar.”
-                <span class="relatos__relato-box--autor">(Iara, 56 anos, ao receber um kit do Projeto Por Elas)</span>
-            </q>
-        </div>
-
-        <!-- Call to action -->
-        <div class="relatos__call-to-action">
-            <!-- Texto -->
-            <h4 class="relatos__call-to-action-texto">
-                ajude a fazer <span class="destaque-rosa">mais pessoas sorrirem</span>, mesmo que com simples gestos
-            </h4>
-            <!-- Botão -->
-            <a href="#comoAjudar" class="relatos__call-to-action--botao">Como posso contribuir?</a>
-        </div>
-    </section>
-
-    <div class="losangos inferiores"></div>
-
-    <!-- Section 6 | Como ajudar? -->
-    <section class="comoAjudar">
-        <!-- Título -->
-        <h2 class="comoAjudar__titulo" id="comoAjudar"><strong class="destaque-roxo">POR ELAS:</strong> como ajudar?</h2>
-
-        <!-- Highlights -->
-        <div class="comoAjudar__highlights"></div>
-
-        <!-- Cards -->
-        <div class="comoAjudar__cards">
-
-            <!-- Card principal: doar -->
-            <div class="comoAjudar__card comoAjudar__card-principal">
-                <!-- Ícone -->
-                <div class="comoAjudar__card-principal--doar"></div>
-                <!-- Título -->
-                <h3 class="comoAjudar__card--titulo comoAjudar__card-principal--titulo">
-                    Doando itens de higiene, cuidados e roupas.
-                </h3>
-                <!-- Botão -->
-                <a href="https://wa.me/5598991329333?text=Oii%2C+eu%20gostaria%20de%20realizar%20uma%20doa%C3%A7%C3%A3o%20para%20o%20Projeto%20Por%20Elas!" class="comoAjudar__card--botao comoAjudar__card-principal--botao" rel="external" target="_blank" title="Abrir conversa no WhatsApp para doar.">
-                    Doar
-                </a>
-                <!-- Endline -->
-                <p class="comoAjudar__card-principal--endline">Toda ajuda é válida!</p>
-            </div>
-
-            <!-- Card secundário: contribuir -->
-            <div class="comoAjudar__card comoAjudar__card-secundario contribuir">
-                <!-- Ícone -->
-                <div class="comoAjudar__card-secundario--contribuir"></div>
-                <!-- Título -->
-                <h3 class="comoAjudar__card--titulo">
-                    Contribuindo com qualquer quantia em dinheiro.
-                </h3>
-                <!-- Botão -->
-                <a href="https://www.instagram.com/p/CUprMTzgYc2/?utm_source=ig_web_copy_link" rel="external" target="_blank" class="comoAjudar__card--botao" title="Visualizar dados bancários para contribuir.">
-                    Contribuir
-                </a>
-            </div>
-
-            <!-- Card secundário: compartilhar -->
-            <div class="comoAjudar__card comoAjudar__card-secundario">
-                <!-- Ícone -->
-                <div class="comoAjudar__card-secundario--compartilhar"></div>
-                <!-- Título -->
-                <h3 class="comoAjudar__card--titulo">
-                    Compartilhando o projeto com os amigos.
-                </h3>
-                <!-- Botão -->
-                <a class="comoAjudar__card--botao" data-share title="Compartilhar o projeto.">
-                    Compartilhar
-                </a>
-                <p class="comoAjudar__card-compartilhar--endline" data-endline>Link copiado com sucesso!</p>
-            </div>
-         
-        </div>
-
-        <!-- Lojinha Por Elas -->
-        <div class="comoAjudar__lojinha">
-            <!-- Ilustração 1 -->
-            <div class="comoAjudar__lojinha--ilustracao-celular"></div>
-
-            <div class="comoAjudar__lojinha--container">
-                <!-- Título -->
-                <h3 class="comoAjudar__lojinha--titulo">Lojinha</h3>
-                <!-- Descrição -->
-                <p class="comoAjudar__lojinha--descricao">Conheça também a nossa lojinha virtual que contém produtos exclusivos, tais como canetas e bottons personalizados!</p>
-                <!-- Botão -->
-                <a href="https://www.instagram.com/stories/highlights/18079573303159095/" rel="external" target="_blank" class="comoAjudar__lojinha--botao">Entrar em contato</a>
-                <!-- Observação -->
-                <p class="comoAjudar__lojinha--observacao">*Toda a renda arrecadada será revertida para as ações do projeto.</p>
-            </div>
-        </div>
-
-        <!-- Endline -->
-        <h4 class="comoAjudar__lojinha--endline"><span class="destaque-lojinha">Contamos com você,</span> nos ajude a ajudar!</h4>
-        <!-- Ilustração 2 -->
-        <div class="comoAjudar__lojinha--ilustracao-uniao"></div>
-
-    </section>
-
-    <!-- Section 7 | Por Elas apoia -->
-    <section class="apoiamos">
-        <!-- Título -->
-        <h3 class="apoiamos__titulo">POR ELAS <span>apoia</span></h3>
-        <!-- Projetos -->
-        <div class="apoiamos__container">
-            <div class="apoiamos__projetos">
-                <div class="apoiamos__projeto">
-                    <a href="https://www.saude.ma.gov.br/unidades-de-saude/unidade-hospital-e-maternidade-marly-sarney/" target="_blank" rel="external"><img src="assets/img/apoiamos/casa-da-gestante.png" alt="Casa da Gestante, Maternidade Marly Sarney"></a>
-                </div>
-                <div class="apoiamos__projeto">
-                    <a href="https://aps.saude.gov.br/ape/consultoriorua/" target="_blank" rel="external"><img src="assets/img/apoiamos/consultorio.png" alt="Consultório na Rua"></a>
-                </div>
-                <div class="apoiamos__projeto">
-                    <a href="https://www.instagram.com/patrulhamariadapenhapmma/" target="_blank" rel="external"><img src="assets/img/apoiamos/patrulha.png" alt="Patrulha Maria da Penha"></a>
-                </div>
-                <div class="apoiamos__projeto">
-                    <a href="https://www.instagram.com/crechecatulinho/" target="_blank" rel="external"><img src="assets/img/apoiamos/catulinho.png" alt="Creche Catulinho"></a>
-                </div>
-                <div class="apoiamos__projeto">
-                    <a href="https://www.instagram.com/grupocms/" target="_blank" rel="external"><img src="assets/img/apoiamos/com-a-missao.png" alt="Com a Missão do Sorriso"></a>
-                </div>
-                <div class="apoiamos__projeto">
-                    <a href="https://www.instagram.com/projetomamslz/" target="_blank" rel="external"><img src="assets/img/apoiamos/projeto-maos.png" alt="Projeto Mãos que Acolhem"></a>
-                </div>
-            </div>
-        </div>
-        <!-- Ilustração -->
-        <div class="apoiamos__ilustracao"></div>
-        <!-- Texto -->
-        <p class="apoiamos__texto">Uma das nossas estratégias para não pararmos de atuar durante a pandemia é a de fazer <span>parcerias com outros programas.</span></p>
-    </section>
-
-    <!-- Section 8 | Entre em contato -->
-    <div class="sobre__listras escuras"></div>
-    <section class="contato">
-        Entre em contato
-    </section>
-
-    <!-- Rodapé -->
-    <div class="sobre__listras roxas"></div>
-    <footer class="rodape">
-        <!-- Logo -->
-        <img class="rodape__logo" src="assets/img/logo-1.svg" alt="Logo do Projeto Por Elas">
-        <!-- Texto -->
-        <p class="rodape__texto">Site desenvolvido pelo time do Programa Trilhas - Inova Maranhão:</p>
-        <!-- Equipe -->
-        <ul class="rodape__equipe">
-            <!-- Membros -->
-            <li class="rodape__equipe--membro">
-                <a href="https://www.linkedin.com/in/ana-j%C3%BAlia-alencar/" target="_blank" rel="extenal"><i class="ri-linkedin-box-fill ri-lg"></i>Ana Júlia Alencar</a>
-            </li>
-            <li class="rodape__equipe--membro">
-                <a href="https://www.linkedin.com/in/gabriel-b-526ab7127/" target="_blank" rel="extenal"><i class="ri-linkedin-box-fill ri-lg"></i>Gabriel Barros</a>
-            </li>
-            <li class="rodape__equipe--membro">
-                <a href="https://www.linkedin.com/in/jhones-de-sousa-soares-5229b41a6/" target="_blank" rel="extenal"><i class="ri-linkedin-box-fill ri-lg"></i>Jhones de Sousa</a>
-            </li>
-            <li class="rodape__equipe--membro">
-                <a href="https://www.linkedin.com/in/patrick-moraes-cutrim/" target="_blank" rel="extenal"><i class="ri-linkedin-box-fill ri-lg"></i>Patrick Cutrim</a>
-            </li>
-            <li class="rodape__equipe--membro">
-                <a href="https://www.linkedin.com/in/tadeu-costa-vi%C3%A9gas-8499a41b0/" target="_blank" rel="extenal"><i class="ri-linkedin-box-fill ri-lg"></i>Tadeu Costa</a>
-            </li>
-        </ul>
-        <!-- Botão -->
-        <a class="rodape__botao comoAjudar__lojinha--botao" href="mailto:gc.barros81@gmail.com,anajuliamoraisribeiro@gmail.com,mynamejhones@gmail.com,patrickmoraescutrim@gmail.com,tadeucosta@acad.ifma.edu.br">Fale conosco<i class="ri-mail-send-line ri-lg"></i></a>
-        <!-- Endline -->
-        <p class="rodape__endline">&copy; 2021 Por Elas. Todos os direitos reservados.</p>
-    </footer>
-
-    <script src="assets/js/scrollToTop.js"></script>
-    <script src="assets/js/share.js"></script>
-</body>
 </html>
