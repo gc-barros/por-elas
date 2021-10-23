@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+@font-face {
+    font-family: 'Awesome Sauce DEMO';
+    src: url(../assets/img/AwesomeSauceDEMO.otf) format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Yellosun';
+    src: url(../assets/img/yellosun.otf) format('opentype'), url(../assets/img/yellosun.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+:root {
+    /* Paleta de cores */
+    --branco: #FBFBFB;
+    --rosa-claro: #FFADC7;
+    --rosa: #F18BAB;
+    --roxo-escuro: #654373;
+    --roxo: #9162A4;
+    --lilas: #C8B2D8;
+
+    /* Fontes */
+    --yellosun: 'Yellosun', cursive;
+    --awesome: 'Awesome Sauce DEMO', monospace;
+    --josefin: 'Josefin Sans', sans-serif;
+}

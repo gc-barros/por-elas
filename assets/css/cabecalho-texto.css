@@ -1,0 +1,113 @@
+@media screen and (min-width: 0) {
+    .cabecalho__texto--titulo{
+        font-family: var(--awesome);
+        font-weight: 400;
+        font-size: 30px;
+        color: var(--rosa-claro);
+        padding: 21px;
+        align-items: center;
+    }
+
+    .destaque--rosa{
+        color:var(--rosa);
+        font-weight: 100;
+    }
+
+    .cabecalho__texto--corpo{
+        font-family: var(--josefin);
+        color: var(--branco);
+        font-weight: 600;
+        font-size: 12px;
+        padding: 0px 26px 26px 26px;
+    }
+
+
+    .cabecalho__texto--botoes{
+        display: flex;
+        justify-content: space-around;
+        padding-bottom: 20px;
+    }
+
+    .botao1{
+        text-decoration: none;
+        font-style: var(--josefin);
+        font-weight: 700;
+        font-size: 11px;
+        color: var(--roxo);
+        background-color: var(--branco);
+        border-radius: 26px;
+        display: inline-block;
+        width: 110px;
+        height: 27,3px;
+        line-height: 28px;
+        padding-left: 12px;
+        transition: 0.5s ease-out all;
+    }
+
+    .botao1:hover{
+        transform: scale(1.1);
+    }
+
+    .botao2{
+        text-decoration: none;
+        font-style: var(--josefin);
+        font-weight: 700;
+        font-size: 11px;
+        color: var(--branco);
+        border-radius: 26px;
+        border: 2px solid var(--branco);
+        display: inline-block;
+        width: 110px;
+        height: 27,3px;
+        line-height: 28px;
+        padding-left: 12px;
+        transition: 0.5s ease-out all;
+    }
+
+    .botao2:hover{
+        transform: scale(1.1);
+    }
+
+    .cabecalho__texto--imagem{
+        width: 280px;
+        height: 284px;
+        align-items: center;
+        margin-left: 20px;
+    }
+
+    .onda{
+        background-image: url(../img/waves.svg);
+        height: 30px;
+        position: relative;
+        z-index: 2;
+        
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .cabecalho__texto--titulo{
+        padding-left: 161px;
+        padding-right: 142px;
+    }
+
+    .cabecalho__texto--corpo{
+        padding-left: 161px;
+        padding-right: 142px;
+    }
+
+    .cabecalho__texto--botoes{
+        padding-left: 161px;
+        padding-right: 142px;
+    }
+
+    .cabecalho__texto--imagem{
+        margin-left: 250px;
+        
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .cabecalho__texto--titulo{
+        padding: 0px;
+    }
+}
