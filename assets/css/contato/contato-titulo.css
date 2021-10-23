@@ -1,0 +1,81 @@
+@media screen and (min-width: 0) {
+    .contato {
+        background-image: url(../../img/contato/background-contato.svg);
+        background-position: center 48%;
+        background-repeat: no-repeat;
+        background-size: 272vw;
+        padding-top: 24px;
+    }
+
+    .contato__logo {
+        font-family: var(--awesome);
+        font-size: 24px;
+        color: var(--branco);
+        text-align: center;
+        position: relative;
+        left: -4px;
+    }
+
+    .contato__logo::before {
+        content: '';
+        display: inline-block;
+        height: 28px;
+        width: 28px;
+        position: relative;
+        bottom: -4px;
+        left: -2px;
+        background: url(../../img/contato/logo-simbolo.svg) no-repeat center / contain;
+    }
+
+    .contato__titulo {
+        font-family: var(--yellosun);
+        color: var(--rosa-claro);
+        font-size: 24px;
+        text-align: center;
+        margin: 6px 0;
+    }
+
+    .contato__titulo::after {
+        content: '';
+        display: block;
+        height: 12px;
+        width: 88px;
+        position: relative;
+        bottom: -4px;
+        margin: auto;
+        background: url(../../img/contato/espira.svg) no-repeat center / contain;
+    }
+}
+
+@media screen and (min-width: 768px) {
+
+    .contato {
+        background-position: center 32%;
+        background-size: 204vw;
+        padding-top: 104px;
+    }
+
+    .contato__logo, .contato__titulo {
+        font-size: 40px;
+    }
+
+    .contato__logo::before {
+        height: 43px;
+        left: -8px;
+        bottom: -8px;
+    } 
+
+    .contato__titulo::after {
+        height: 24px;
+        width: 195px;
+        margin-top: 4px;
+    }
+}
+
+@media screen and (min-width: 1023px) {
+    .contato {
+        background-position: center 32%;
+        background-size: 130vw;
+        padding-top: 104px;
+    }
+}

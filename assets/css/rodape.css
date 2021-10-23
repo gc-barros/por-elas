@@ -6,8 +6,8 @@
     .rodape {
         background-color: var(--roxo-escuro);
         font-family: var(--josefin);
-        font-size: 14px;
-        padding-top: 24px;
+        font-size: 12px;
+        padding-top: 48px;
         text-align: center;
         color: var(--branco);
     }

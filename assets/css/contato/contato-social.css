@@ -1,0 +1,80 @@
+@media screen and (min-width: 0) {
+    
+    .contato__social {
+        width: 288px;
+        height: 175px;
+        margin: 48px auto 24px auto;
+        background: url(../../img/contato/social.svg) no-repeat center / contain;
+    }
+
+    .contato__social li {
+        margin-left: 104px;
+        margin-bottom: 2px;
+    }
+
+    .contato__link {
+        color: var(--roxo-escuro);
+        overflow: hidden;
+        display: inline-block;
+        width: 40px;
+        height: 40px;
+        background-color: var(--branco);
+        border-radius: 50px;
+        border: 2px solid var(--lilas);
+        transition: 0.5s ease-in-out all;
+    }
+
+    .contato__link.espaco {
+        margin-left: 32px;
+    }
+
+    .contato__icone {
+        display: inline-block;
+        padding-bottom: 20px;
+    }
+
+    .contato__icone i {
+        font-size: 24px;
+        position: relative;
+        bottom: -6px;
+        right: -6px;
+        transition: 0.5s linear all;
+    }
+
+    .contato__texto {
+        font-size: 14px;
+        margin-left: 14px;
+        font-family: var(--josefin);
+        font-weight: 600;
+        opacity: 0;
+        transition: 1s linear all;
+    }
+
+    .contato__link:hover {
+        width: 156px;
+        color: var(--roxo-escuro);
+        background-color: var(--branco);
+    }
+
+    .contato__link:hover .contato__texto {
+        opacity: 1;
+    }
+
+    .contato__link:hover .contato__icone {
+        color: var(--rosa);
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .contato__social {
+        padding-top: 48px;
+        width: 608px;
+        height: 360px;
+        margin: 64px auto 56px auto;
+    }
+
+    .contato__social li {
+        margin-left: 226px;
+        margin-bottom: 25px;
+    }
+}

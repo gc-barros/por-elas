@@ -6,7 +6,7 @@
     <meta name="theme-color" content="#9162A4">
  
     <meta id="vp" name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- <meta id="vp" name="viewport" content="width=320"> -->
+    <meta id="vp" name="viewport" content="width=320">
 
     <!-- Título -->
     <title>POR ELAS | Nossa luta é a luta das mulheres </title>
@@ -67,6 +67,12 @@
     <!-- CSS da seção 'Por Elas apoia' -->
     <link rel="stylesheet" href="assets/css/apoiamos/apoiamos.css">
 
+    <!-- CSS da seção 'Entre em contato' -->
+    <link rel="stylesheet" href="assets/css/contato/contato-titulo.css">
+    <link rel="stylesheet" href="assets/css/contato/contato-social.css">
+    <link rel="stylesheet" href="assets/css/contato/contato-email.css">
+    <link rel="stylesheet" href="assets/css/contato/contato-endline.css">
+
     <!-- CSS do rodapé -->
     <link rel="stylesheet" href="assets/css/rodape.css">
 
@@ -112,6 +118,7 @@
     </button>
 
     <!-- Section 2 | As estatísticas assustam -->
+    <div class="estatisticas__waves"></div>
     <section class="estatisticas">
         <!-- Dúvida -->
         <div class="estatisticas__duvida--ilustracao"></div>
@@ -249,7 +256,7 @@
             <h3 class="sobre__titulo-incentivo">Contamos com <span style="color: var(--rosa-claro);" >você</span> para fazer com que nosso alcance esteja em constante crescimento!</h3>
             <div class="sobre__botoes-interativos">
                 <a class="sobre__botoes-1" href="#comoAjudar">Quero ajudar!</a>
-                <a class="sobre__botoes-2" href="#">Entrar em contato</a>
+                <a class="sobre__botoes-2" href="#contato">Entrar em contato</a>
             </div>
         </div>
 
@@ -458,12 +465,45 @@
 
     <!-- Section 8 | Entre em contato -->
     <div class="sobre__listras escuras"></div>
-    <section class="contato">
-        Entre em contato
+    <section class="contato" id="contato">
+        <h3 class="contato__logo">POR ELAS</h3>
+        <h4 class="contato__titulo">entre em contato</h4>
+
+        <ul class="contato__social">
+            <li>
+                <a href="https://www.instagram.com/porelas.slz/" target="_blank" rel="external" class="contato__link espaco" title="Instagram">
+                    <div class="contato__icone"><i class="ri-instagram-fill"></i></div>
+                    <span class="contato__texto">@porelas.slz</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://www.facebook.com/porelasslz/" class="contato__link" target="_blank" rel="external" title="Facebook">
+                    <div class="contato__icone"><i class="ri-facebook-circle-fill"></i></div>
+                    <span class="contato__texto">/porelasslz</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://twitter.com/porelasslz/" class="contato__link espaco" target="_blank" rel="external" title="Twitter">
+                    <div class="contato__icone"><i class="ri-twitter-fill"></i></div>
+                    <span class="contato__texto">@porelas.slz</span>
+                </a>
+            </li>
+        </ul>
+
+        <div class="contato__email">
+            <h5 class="contato__email--texto">ou se preferir, mande-nos um e-mail</h5>
+            <a href="mailto:porelas.slz@gmail.com" class="contato__email--botao comoAjudar__lojinha--botao">Enviar e-mail <i class="ri-mail-send-line ri-lg"></i></a>
+        </div>
+
+        <p class="contato__endline">
+            a luta é das mulheres, para as mulheres!<span> vamos juntas?</span>
+        </p>
+
+        <div class="contato__ilustracao-mulheres"></div>
     </section>
 
     <!-- Rodapé -->
-    <div class="sobre__listras roxas"></div>
+    <div class="sobre__listras escuras"></div>
     <footer class="rodape">
         <!-- Logo -->
         <img class="rodape__logo" src="assets/img/logo-1.svg" alt="Logo do Projeto Por Elas">

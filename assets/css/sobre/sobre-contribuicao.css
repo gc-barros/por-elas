@@ -49,9 +49,13 @@
         transition: 1s;
     }
 
-    .sobre__botoes-1:hover, .sobre__botoes-2:hover {
-        opacity: 0.7;
-        cursor: pointer;
+    .sobre__botoes-2:hover {
+        border-color: var(--rosa-claro);
+        color: var(--rosa-claro);
+    }
+   
+    .sobre__botoes-1:hover {
+        background-color: var(--rosa-claro);
     }
 }
 

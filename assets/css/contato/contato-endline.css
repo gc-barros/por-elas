@@ -1,0 +1,41 @@
+@media screen and (min-width: 0) {
+    .contato__endline {
+        font-size: 20px;
+        color: var(--branco);
+        line-height: 1.2;
+        font-family: var(--yellosun);
+        text-align: center;
+        margin-top: 48px;
+    }
+
+    .contato__endline span {
+        display: block;
+        font-family: var(--awesome);
+        color: var(--rosa-claro);
+
+    }
+
+    .contato__ilustracao-mulheres {
+        background: url(../../img/contato/mulheres.svg) no-repeat center / contain;
+        height: 160px;
+        position: relative;
+        left: -30px;
+        margin-top: 16px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .contato__endline {
+        font-size: 28px;
+        margin-top: 72px;
+    }
+
+    .contato__ilustracao-mulheres {
+        height: 224px;
+        margin-top: 32px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+
+}

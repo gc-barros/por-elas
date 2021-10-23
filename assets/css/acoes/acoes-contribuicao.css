@@ -29,8 +29,7 @@
     }
 
     .acoes__botao:hover {
-        opacity: 0.7;
-        cursor: pointer;
+        background-color: var(--rosa);
     }
 }
 

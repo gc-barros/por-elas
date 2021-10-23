@@ -1,0 +1,55 @@
+@media screen and (min-width: 0) {
+    .contato__email--texto {
+        font-family: var(--josefin);
+        color: var(--branco);
+        margin-bottom: 10px;
+        font-size: 12px;
+        text-align: center;
+        margin-top: -16px;
+    }
+
+    .contato__email--botao.comoAjudar__lojinha--botao {
+        width: 135px;
+        text-align: center;
+        background-color: var(--branco);
+        color: var(--roxo);
+        font-weight: 600;
+        margin: auto;
+        margin-top: -2px;
+        height: 28px;
+        padding: 6px;
+    }
+
+    .contato__email--botao.comoAjudar__lojinha--botao i {
+        font-weight: 500;
+        position: relative;
+        bottom: -2px;
+    }
+
+    .contato__email--botao.comoAjudar__lojinha--botao::after {
+        content: '';
+        background: url(../../img/contato/underline.svg) no-repeat center / cover;
+        height: 5px;
+        display: block;
+        margin-top: 24px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+
+    .contato__email--texto {
+        font-size: 16px;
+        margin-bottom: 14px;
+    }
+
+    .contato__email--botao.comoAjudar__lojinha--botao {
+        width: 180px;
+        margin-top: 4px;
+        height: 36px;
+        padding: 7px;
+    }
+
+    .contato__email--botao.comoAjudar__lojinha--botao i {
+        bottom: -4px;
+    }
+}

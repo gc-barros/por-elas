@@ -1,4 +1,12 @@
 @media screen and (min-width: 0) {
+    .estatisticas__waves {
+        background: url(../../img/estatisticas/waves.svg) no-repeat center / cover;
+        height: 180px;
+        position: relative;
+        z-index: 3;
+        margin-top: -180px;
+    }
+
     .estatisticas__duvida--ilustracao {
         background: url(../../img/estatisticas/duvida.svg) no-repeat center / contain;
         height: 180px;
