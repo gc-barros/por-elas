@@ -1,18 +1,19 @@
 @media screen and (min-width: 0) {
 
     .sobre__video {
-        width: 290px;
-        height: auto;
+        width: 310px;
+        height: 189px;
         border-radius: 16px;
         border: 6px var(--rosa) solid;
-        background-color: var(--roxo);
+        background-color: var(--rosa-claro);
         margin: 24px auto;
     }
 }
 
 @media screen and (min-width: 768px) {
     .sobre__video {
-        width: 540px;
+        width: 560px;
+        height: 318px;
         margin: 40px auto;
     }
 }
