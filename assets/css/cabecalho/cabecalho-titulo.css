@@ -55,9 +55,7 @@
     }
     
     .cabecalho__navegacao--botoes li {
-        padding: 0 12px 24px 12px;
-        padding-left: 12px;
-        padding-bottom: 24px;
+        padding: 0 12px 12px 12px;
     }
 
     .cabecalho__botao-nav::after {
@@ -93,8 +91,9 @@
 
     .cabecalho__botao--contatenos {
         text-decoration: none;
-        background-color: var(--branco);
-        color: var(--roxo);
+        background-color: var(--roxo);
+        border: 2px var(--branco) solid;
+        color: var(--branco);
         font-family: var(--josefin);
         font-weight: 700;
         font-size: 12px;
@@ -134,9 +133,10 @@
         text-align: center;
         margin-left: 8px;
         font-size: 16px;
-        width: 124px;
+        width: 126px;
         height: 32px;
-        line-height: 35px;
+        font-weight: 600;
+        line-height: 32px;
         margin-right: 8px;
     }
     .cabecalho__titulo{
@@ -164,7 +164,7 @@
     .cabecalho__botao{
         justify-content: space-between;
         align-items: center;
-        top: 0px;
+        top: 2px;
         padding-bottom: 0px;
     }
 
