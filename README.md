@@ -1,4 +1,4 @@
-# 🌸 Landing Page desenvolvida para o Projeto Por Elas ♀️
+# 🌸 Landing Page desenvolvida para o Projeto♀️Por Elas
 💭 <em>"Que o poder público não liga para mulheres não é novidade, mas até quando mulheres em péssimas condições continuarão vivendo sem proteção e cuidado?"</em>
 
 #### 🔗 Confira em: https://porelas.ong.br/ ou https://porelas.vercel.app/
