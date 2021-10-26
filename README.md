@@ -1,7 +1,7 @@
 # 🌸 Landing Page desenvolvida para o Projeto Por Elas ♀️
 💭 <em>"Que o poder público não liga para mulheres não é novidade, mas até quando mulheres em péssimas condições continuarão vivendo sem proteção e cuidado?"</em>
 
-#### 🔗 Confira: https://porelas.vercel.app/
+#### 🔗 Confira em: https://porelas.vercel.app/ ou https://porelas.ong.br/
 <br>
 
 <a href="https://porelas.vercel.app/"><img alt="GIF da landing page do Projeto Por Elas" src="https://media4.giphy.com/media/JuJbvFOZ54ANDqXqpq/giphy.gif?cid=790b76117c1e343a367649a641ccc98b247ae7911ab315d1&rid=giphy.gif&ct=g"></a>
