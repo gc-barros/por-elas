@@ -347,3 +347,26 @@ template {
 [hidden] {
   display: none;
 }
+
+/* width */
+::-webkit-scrollbar {
+  width: 12px;
+  height: 4px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #FFADC7;
+  border-radius: 2px;
+  transition: .4s;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #df8ca6;
+}
