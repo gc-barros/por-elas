@@ -8,10 +8,10 @@
     <meta id="vp" name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!-- Título -->
-    <title>POR ELAS | Nossa luta é a luta das mulheres </title>
+    <title>Projeto POR ELAS | Nossa luta é a luta das mulheres </title>
 
     <!-- Descrição -->
-    <meta name="description" content="Que a realidade das mulheres não é prioridade em projetos políticos sociais não é novidade, mas até quando mulheres em péssimas condições continuarão vivendo sem proteção e cuidado?">
+    <meta name="description" content="Que a realidade das mulheres não é prioridade em projetos políticos sociais não é novidade, mas até quando mulheres em péssimas condições continuarão vivendo sem proteção e cuidado? Conheça o Projeto POR ELAS.">
 
     <!-- Imagens para compartilhamento de links -->
     <!-- MS Tile - for Microsoft apps-->
@@ -91,6 +91,8 @@
     <link rel="stylesheet" href="assets/css/contato/contato-social.css">
     <link rel="stylesheet" href="assets/css/contato/contato-email.css">
     <link rel="stylesheet" href="assets/css/contato/contato-endline.css">
+    <link rel="stylesheet" href="assets/css/loading.css">
+    <link rel="stylesheet" href="assets/css/animate.css">
 
     <!-- CSS do rodapé -->
     <link rel="stylesheet" href="assets/css/rodape.css">
@@ -100,13 +102,19 @@
 </head>
 
 <body>
-    <!-- Inicio -->
+    <!-- Loading -->
+    <div class="loading">
+        <div class="loading__img">
+            <img src="assets/img/logo-1.svg" alt="O Projeto Por Elas desenvolve um trabalho fantástico mobilizando pessoas e realizando ações para mulheres em São Luís – MA">
+        </div>
+    </div>
 
+    <!-- Inicio -->
     <section class="cabecalho">
 
         <header class="cabecalho__menu">
             <div class="cabecalho__titulo">
-                <a href="https://www.instagram.com/porelas.slz/" target="_blank" rel="noreferrer"><h2>POR ELAS</h2></a>
+                <a href="https://www.instagram.com/porelas.slz/" target="_blank" rel="noreferrer"><h1>POR ELAS</h1></a>
             </div>
     
             <nav class="cabecalho__navegacao">
@@ -124,7 +132,7 @@
         
         <div class="cabecalho__container">
             <div class="cabecalho__container--informacoes">
-                <h1 class="cabecalho__texto--titulo">SEJA UMA <strong class="destaque--rosa">MULHER</strong> QUE LEVANTA OUTRAS <strong class="destaque--rosa">MULHERES</strong></h1>
+                <h2 class="cabecalho__texto--titulo">SEJA UMA <strong class="destaque--rosa">MULHER</strong> QUE LEVANTA OUTRAS <strong class="destaque--rosa">MULHERES</strong></h2>
                 <h2 class="cabecalho__texto--corpo">Que a realidade das mulheres não é prioridade em projetos políticos sociais não é novidade, mas até quando mulheres em péssimas condições continuarão vivendo sem proteção e cuidado?</h2>
 
                 <ul class="cabecalho__texto--botoes">
@@ -152,7 +160,7 @@
         </h3>
 
         <!-- Introdução -->
-        <div class="estatisticas__introducao">
+        <div class="estatisticas__introducao" data-anima="left">
             <div class="estatisticas__introducao--container">
                 <h2 class="estatisticas__introducao--titulo">As estatísticas assustam</h2>
                 <p class="estatisticas__introducao--descricao">Você sabia que milhares de mulheres são expostas a todo o tipo de violência sexual, social e moral todos os dias? Nós, do Projeto Por Elas, sabemos que essas cidadãs precisam de um olhar diferenciado e fazemos o possível para mudar essa realidade.</p>
@@ -161,7 +169,7 @@
         </div>
 
         <!-- Infográfico -->
-        <div class="estatisticas__infografico">
+        <div class="estatisticas__infografico" data-anima="left">
             <!-- Dados -->
             <div class="estatisticas__infografico--dados">
                 <!-- Dado 1 -->
@@ -197,10 +205,10 @@
         </div>
 
         <!-- Quadro 8.000.000 -->
-        <img src="assets/img/estatisticas/8.000.000.svg" alt="Quadro que apresenta o dado de que 8.000.000 mulheres estão em situação de extrema pobreza no Brasil, sendo 70% delas negras. Fonte: IBGE." class="estatisticas__quadro-8-milhoes">
+        <img src="assets/img/estatisticas/8.000.000.svg" alt="Quadro que apresenta o dado de que 8.000.000 mulheres estão em situação de extrema pobreza no Brasil, sendo 70% delas negras. Fonte: IBGE." class="estatisticas__quadro-8-milhoes" data-anima="left">
 
         <!-- Pobreza menstrual -->
-        <div class="estatisticas__pobreza-menstrual">
+        <div class="estatisticas__pobreza-menstrual" data-anima="left">
             <!-- Ilustração -->
             <img class="estatisticas__pobreza-menstrual--ilustracao" src="assets/img/estatisticas/pobrezaMenstrual.svg" alt="Ilustração contendo um útero, absorvente, rosas e outros produtos de higiene femininos." loading="lazy">
             <!-- Texto -->
@@ -212,7 +220,7 @@
         </div>
 
         <!-- Cenário brasileiro -->
-        <div class="estatisticas__cenario-br">
+        <div class="estatisticas__cenario-br" data-anima="left">
             <!-- Ilustração -->
             <div class="estatisticas__cenario-br--ilustracao"></div>
             <!-- Dados -->
@@ -225,7 +233,7 @@
         </div>
 
         <!-- Call to action -->
-        <div class="estatisticas__callToAction">
+        <div class="estatisticas__callToAction" data-anima="bottom">
             <!-- Texto -->
             <h4 class="estatisticas__callToAction--descricao">Mais do que nunca precisamos de vocês.
             <span>Elas precisam de nós!</span></h4>
@@ -241,7 +249,7 @@
         <h2 class="sobre__titulo">conheça o projeto</h2>
         <div class="sobre__logo"></div>
         
-        <div class="sobre__inicio">
+        <div class="sobre__inicio" data-anima="bottom">
             <div class="sobre__inicio-box-texto">
                 <h3 class="sobre__subtitulo">o início</h3>
                 <p class="sobre__paragrafo">Nosso projeto nasceu com o sonho de mudar esse cenário e, posteriormente, fomos ampliando. Somos o primeiro e único projeto no Maranhão voltado para a pobreza menstrual, estando entre os poucos em panorama nacional.</p>
@@ -250,7 +258,7 @@
             <div class="sobre__inicio-img"></div>
         </div>
         
-        <div class="sobre__objetivo">
+        <div class="sobre__objetivo" data-anima="bottom">
             <div class="sobre__objetivo-texto">
                 <h3 class="sobre__subtitulo">missão</h3>
                 <p class="sobre__paragrafo">Unir e mobilizar um grupo de pessoas para pensar e realizar ações para mulheres em São Luís - MA, proporcionando acolhimento e 
@@ -260,7 +268,7 @@
             <div class="sobre__objetivo-img"></div>
         </div>
 
-        <div class="sobre__luta">
+        <div class="sobre__luta" data-anima="bottom">
             <div class="sobre__luta-texto">
                 <h4 class="sobre__subtitulo">nossa luta é a <strong>luta das mulheres</strong></h4>
                 <p class="sobre__luta-paragrafo">Estamos diante de um sistema que nos invisibiliza, esconde nossas histórias e não prioriza nossas pautas politicamente. Só o nosso amor - e organização, por nós mesmas e umas pelas outras, pode nos libertar.</p>
@@ -273,7 +281,7 @@
             <iframe loading="lazy" title="Conheça o Projeto Por Elas" class="sobre__video" src="https://player.vimeo.com/video/638382230?color=ffadc7&h=b50dc143a0" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
         </div>
 
-        <div class="sobre__contribuicao">        
+        <div class="sobre__contribuicao" data-anima="left">        
             <h3 class="sobre__titulo-incentivo">Contamos com <span style="color: var(--rosa-claro);" >você</span> para fazer com que nosso alcance esteja em constante crescimento!</h3>
             <div class="sobre__botoes-interativos">
                 <a class="sobre__botoes-1" href="#comoAjudar">Quero ajudar!</a>
@@ -292,11 +300,11 @@
         <!-- Adicionando imagens da galeria -->
         <div class="acoes__galeria">
             <img class="acoes__galeria-grupo1" src="assets/img/acoes/galeria-grupo1.png" alt="Fotos de ações realizadas pelo projeto: doaçoes 
-            para a Casa da Gestante e para mulheres que sofreram com violência doméstica." loading="lazy">
+            para a Casa da Gestante e para mulheres que sofreram com violência doméstica." loading="lazy" data-anima="bottom">
             <img class="acoes__galeria-grupo2" src="assets/img/acoes/galeria-grupo2.png" alt="Sequência com doações para mulheres em 
-            situação de rua" loading="lazy">
+            situação de rua" loading="lazy" data-anima="bottom">
             <img class="acoes__galeria-grupo3" src="assets/img/acoes/galeria-grupo3.png" alt="e voluntários do Projeto POR ELAS com as doações 
-            recebidas." loading="lazy">
+            recebidas." loading="lazy" data-anima="bottom">
         </div>
         
         <div class="acoes__subtitulo">
@@ -317,7 +325,7 @@
     <section class="relatos">
 
         <!-- Ilustração principal -->
-        <div class="relatos__ilustracao-principal">
+        <div class="relatos__ilustracao-principal" data-anima="bottom">
             <div class="relatos__ilustracao-principal--underline"></div>
         </div>
 
@@ -326,7 +334,7 @@
         <div class="relatos__introducao-rabiscos"></div>
 
         <!-- Box de relatos -->
-        <div class="relatos__relato-box">
+        <div class="relatos__relato-box" data-anima="bottom">
             <!-- Ilustração -->
             <div class="relatos__relato-box--ilustracao-carinhas"></div>
             <!-- Relato -->
@@ -336,7 +344,7 @@
             </q>
         </div>
 
-        <div class="relatos__relato-box">
+        <div class="relatos__relato-box" data-anima="bottom">
             <!-- Ilustração -->
             <div class="relatos__relato-box--ilustracao-coracao"></div>
             <!-- Relato -->
@@ -346,7 +354,7 @@
             </q>
         </div>
 
-        <div class="relatos__relato-box">
+        <div class="relatos__relato-box" data-anima="bottom">
             <!-- Ilustração -->
             <div class="relatos__relato-box--ilustracao-maos"></div>
             <!-- Relato -->
@@ -357,7 +365,7 @@
         </div>
 
         <!-- Call to action -->
-        <div class="relatos__call-to-action">
+        <div class="relatos__call-to-action" data-anima="left">
             <!-- Texto -->
             <h3 class="relatos__call-to-action-texto">
                 ajude a fazer <span class="destaque-rosa">mais pessoas sorrirem</span>, mesmo que com simples gestos
@@ -372,7 +380,7 @@
     <!-- Section 6 | Como ajudar? -->
     <section class="comoAjudar">
         <!-- Título -->
-        <h2 class="comoAjudar__titulo" id="comoAjudar"><strong class="destaque-roxo">POR ELAS:</strong> como ajudar?</h2>
+        <h2 class="comoAjudar__titulo" id="comoAjudar" data-anima="left"><strong class="destaque-roxo">POR ELAS:</strong> como ajudar?</h2>
 
         <!-- Highlights -->
         <div class="comoAjudar__highlights"></div>
@@ -381,7 +389,7 @@
         <div class="comoAjudar__cards">
 
             <!-- Card principal: doar -->
-            <div class="comoAjudar__card comoAjudar__card-principal">
+            <div class="comoAjudar__card comoAjudar__card-principal" data-anima="bottom">
                 <!-- Ícone -->
                 <div class="comoAjudar__card-principal--doar"></div>
                 <!-- Título -->
@@ -397,7 +405,7 @@
             </div>
 
             <!-- Card secundário: contribuir -->
-            <div class="comoAjudar__card comoAjudar__card-secundario contribuir">
+            <div class="comoAjudar__card comoAjudar__card-secundario contribuir" data-anima="bottom">
                 <!-- Ícone -->
                 <div class="comoAjudar__card-secundario--contribuir"></div>
                 <!-- Título -->
@@ -411,7 +419,7 @@
             </div>
 
             <!-- Card secundário: compartilhar -->
-            <div class="comoAjudar__card comoAjudar__card-secundario">
+            <div class="comoAjudar__card comoAjudar__card-secundario" data-anima="bottom">
                 <!-- Ícone -->
                 <div class="comoAjudar__card-secundario--compartilhar"></div>
                 <!-- Título -->
@@ -428,7 +436,7 @@
         </div>
 
         <!-- Lojinha Por Elas -->
-        <div class="comoAjudar__lojinha">
+        <div class="comoAjudar__lojinha" data-anima="left">
             <!-- Ilustração 1 -->
             <div class="comoAjudar__lojinha--ilustracao-celular"></div>
 
@@ -445,7 +453,7 @@
         </div>
 
         <!-- Endline -->
-        <h4 class="comoAjudar__lojinha--endline"><span class="destaque-lojinha">Contamos com você,</span> nos ajude a ajudar!</h4>
+        <h4 class="comoAjudar__lojinha--endline" data-anima="bottom"><span class="destaque-lojinha">Contamos com você,</span> nos ajude a ajudar!</h4>
         <!-- Ilustração 2 -->
         <div class="comoAjudar__lojinha--ilustracao-uniao"></div>
 
@@ -454,9 +462,9 @@
     <!-- Section 7 | Por Elas apoia -->
     <section class="apoiamos">
         <!-- Título -->
-        <h3 class="apoiamos__titulo">POR ELAS <span>apoia</span></h3>
+        <h3 class="apoiamos__titulo" data-anima="left">POR ELAS <span>apoia</span></h3>
         <!-- Projetos -->
-        <div class="apoiamos__container">
+        <div class="apoiamos__container" data-anima="bottom">
             <div class="apoiamos__projetos">
                 <div class="apoiamos__projeto">
                     <a href="https://www.saude.ma.gov.br/unidades-de-saude/unidade-hospital-e-maternidade-marly-sarney/" target="_blank" rel="noreferrer"><img src="assets/img/apoiamos/casa-da-gestante.png" alt="Casa da Gestante, Maternidade Marly Sarney"></a>
@@ -537,7 +545,7 @@
                 <a href="https://www.linkedin.com/in/ana-j%C3%BAlia-alencar/" target="_blank" rel="noreferrer"><i class="ri-linkedin-box-fill ri-lg"></i>Ana Júlia Alencar</a>
             </li>
             <li class="rodape__equipe--membro">
-                <a href="https://www.linkedin.com/in/gabriel-b-526ab7127/" target="_blank" rel="noreferrer"><i class="ri-linkedin-box-fill ri-lg"></i>Gabriel Barros</a>
+                <a href="https://www.linkedin.com/in/gabriel-barros-526ab7127/" target="_blank" rel="noreferrer"><i class="ri-linkedin-box-fill ri-lg"></i>Gabriel Barros</a>
             </li>
             <li class="rodape__equipe--membro">
                 <a href="https://www.linkedin.com/in/jhones-de-sousa-soares-5229b41a6/" target="_blank" rel="noreferrer"><i class="ri-linkedin-box-fill ri-lg"></i>Jhones de Sousa</a>
@@ -557,5 +565,6 @@
 
     <script src="assets/js/scrollToTop.js"></script>
     <script src="assets/js/share.js"></script>
+    <script type="module" src="assets/js/main.js"></script>
 </body>
 </html>
