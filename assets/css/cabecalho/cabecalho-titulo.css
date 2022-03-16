@@ -14,6 +14,10 @@
         transition: 0.5s ease-out all;
     }
 
+    .cabecalho__titulo h1 {
+        font-size: 28px;
+    }
+
     .cabecalho__titulo:hover {
         transform: scale(1.1);
     }
